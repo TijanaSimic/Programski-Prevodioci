@@ -1,0 +1,353 @@
+INFO  01:25:27,108 - Compiling source file: C:\Users\Tijana\Desktop\posl\workspace\MJCompiler\test\test301.mj
+INFO  01:25:27,171 - #2 program
+INFO  01:25:27,171 - #47 test
+INFO  01:25:27,171 - #6 const
+INFO  01:25:27,172 - #47 int
+INFO  01:25:27,172 - #47 cinilac
+INFO  01:25:27,173 - #25 =
+INFO  01:25:27,173 - #46 4
+INFO  01:25:27,173 - #41 ,
+INFO  01:25:27,174 - #47 delilac
+INFO  01:25:27,174 - #25 =
+INFO  01:25:27,174 - #46 3
+INFO  01:25:27,174 - #40 ;
+INFO  01:25:27,174 - #4 class
+INFO  01:25:27,175 - #47 Predmet
+INFO  01:25:27,175 - #38 {
+INFO  01:25:27,175 - #47 int
+INFO  01:25:27,177 - #47 tezina
+INFO  01:25:27,177 - #40 ;
+INFO  01:25:27,177 - #47 char
+INFO  01:25:27,177 - #47 vrsta
+INFO  01:25:27,178 - #40 ;
+INFO  01:25:27,182 - #38 {
+INFO  01:25:27,182 - #16 void
+INFO  01:25:27,183 - #47 postaviTezinu
+INFO  01:25:27,183 - #44 (
+INFO  01:25:27,183 - #47 int
+INFO  01:25:27,183 - #47 tezina
+INFO  01:25:27,183 - #45 )
+INFO  01:25:27,183 - #38 {
+INFO  01:25:27,184 - #47 this
+INFO  01:25:27,185 - #36 .
+INFO  01:25:27,185 - #47 tezina
+INFO  01:25:27,185 - #25 =
+INFO  01:25:27,186 - #47 tezina
+INFO  01:25:27,187 - #40 ;
+INFO  01:25:27,187 - #39 }
+INFO  01:25:27,188 - #39 }
+INFO  01:25:27,188 - #39 }
+INFO  01:25:27,188 - #4 class
+INFO  01:25:27,188 - #47 Sfera
+INFO  01:25:27,188 - #47 extendssssss
+ERROR 01:25:27,189 - 
+Sintaksna greska na liniji 19
+INFO  01:25:27,189 - #47 Predmet
+INFO  01:25:27,189 - #38 {
+INFO  01:25:27,189 - #47 int
+INFO  01:25:27,189 - #47 r
+INFO  01:25:27,189 - #31 ++
+ERROR 01:25:27,190 - Izvrsen oporavak pri extends do { u liniji  19
+ERROR 01:25:27,190 - 
+Sintaksna greska na liniji 21
+INFO  01:25:27,190 - #41 ,
+INFO  01:25:27,190 - #47 s
+INFO  01:25:27,190 - #41 ,
+INFO  01:25:27,190 - #47 a
+ERROR 01:25:27,190 - Izvrsen oporavak pri deklarisanju varijable do , u liniji 21
+INFO  01:25:27,191 - #40 ;
+INFO  01:25:27,191 - #38 {
+INFO  01:25:27,191 - #16 void
+INFO  01:25:27,191 - #47 postaviTezinu
+INFO  01:25:27,191 - #44 (
+INFO  01:25:27,191 - #47 int
+INFO  01:25:27,191 - #47 tezina
+INFO  01:25:27,191 - #45 )
+INFO  01:25:27,192 - #38 {
+INFO  01:25:27,192 - #47 this
+INFO  01:25:27,192 - #36 .
+INFO  01:25:27,192 - #47 tezina
+INFO  01:25:27,192 - #25 =
+INFO  01:25:27,192 - #47 tezina
+INFO  01:25:27,192 - #40 ;
+INFO  01:25:27,192 - #47 vrsta
+INFO  01:25:27,192 - #25 =
+INFO  01:25:27,192 - #49 s
+INFO  01:25:27,192 - #40 ;
+INFO  01:25:27,192 - #39 }
+INFO  01:25:27,192 - #39 }
+INFO  01:25:27,192 - #39 }
+INFO  01:25:27,192 - #38 {
+INFO  01:25:27,193 - #16 void
+INFO  01:25:27,193 - #47 main
+INFO  01:25:27,193 - #44 (
+INFO  01:25:27,193 - #45 )
+INFO  01:25:27,193 - #38 {
+INFO  01:25:27,193 - #39 }
+INFO  01:25:27,193 - #39 }
+INFO  01:25:27,195 - ProgramFile(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclaration(
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+            ConstListComaConstPart(
+              ConstListJustPart(
+                ConstantListIdentEqual(
+                 cinilac
+                  NumConstantList(
+                   4
+                  ) [NumConstantList]
+                ) [ConstantListIdentEqual]
+              ) [ConstListJustPart]
+              ConstantListIdentEqual(
+               delilac
+                NumConstantList(
+                 3
+                ) [NumConstantList]
+              ) [ConstantListIdentEqual]
+            ) [ConstListComaConstPart]
+          ) [ConstDecl1]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ClassDeclaration(
+        ClassDecl1(
+         Predmet
+          NoExtType(
+          ) [NoExtType]
+          WithVarList(
+            WithVarList(
+              NoVarDecl(
+              ) [NoVarDecl]
+              VarClass(
+                Type(
+                 int
+                ) [Type]
+                VarOrArrayId(
+                  VarId(
+                   tezina
+                  ) [VarId]
+                ) [VarOrArrayId]
+              ) [VarClass]
+            ) [WithVarList]
+            VarClass(
+              Type(
+               char
+              ) [Type]
+              VarOrArrayId(
+                VarId(
+                 vrsta
+                ) [VarId]
+              ) [VarOrArrayId]
+            ) [VarClass]
+          ) [WithVarList]
+          MethodCurlyBracket(
+            MethodDeclarations(
+              NoMethodDecl(
+              ) [NoMethodDecl]
+              MethodDeclaration(
+                MethodVoidN(
+                 postaviTezinu
+                ) [MethodVoidN]
+                FormalParameters(
+                  SingleFormalParamDecl(
+                    ScalarParameter(
+                      Type(
+                       int
+                      ) [Type]
+                     tezina
+                    ) [ScalarParameter]
+                  ) [SingleFormalParamDecl]
+                ) [FormalParameters]
+                NoVarDeclMethod(
+                ) [NoVarDeclMethod]
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  FirstExp(
+                    AssignDes(
+                      DesignatorIdent(
+                       this
+                        DessignList(
+                          DesignatorEpsilon(
+                          ) [DesignatorEpsilon]
+                          DesignatorDotIdent(
+                           tezina
+                          ) [DesignatorDotIdent]
+                        ) [DessignList]
+                      ) [DesignatorIdent]
+                      EqualOp(
+                      ) [EqualOp]
+                      ExpressionTerm(
+                        JustTerms(
+                          TermsExpressionTerm(
+                            TermFactor(
+                              VarRef(
+                                DesignatorIdent(
+                                 tezina
+                                  DesignatorEpsilon(
+                                  ) [DesignatorEpsilon]
+                                ) [DesignatorIdent]
+                              ) [VarRef]
+                            ) [TermFactor]
+                          ) [TermsExpressionTerm]
+                        ) [JustTerms]
+                      ) [ExpressionTerm]
+                    ) [AssignDes]
+                  ) [FirstExp]
+                ) [Statements]
+              ) [MethodDeclaration]
+            ) [MethodDeclarations]
+          ) [MethodCurlyBracket]
+        ) [ClassDecl1]
+      ) [ClassDeclaration]
+    ) [Declarations]
+    ClassDeclaration(
+      ClassDecl1(
+       Sfera
+        ClassDeclError(
+        ) [ClassDeclError]
+        WithVarList(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarClass(
+            Type(
+             int
+            ) [Type]
+            VarIdList(
+              VarIdList(
+                VarOrArrayId(
+                  VarPartError(
+                  ) [VarPartError]
+                ) [VarOrArrayId]
+                VarId(
+                 s
+                ) [VarId]
+              ) [VarIdList]
+              VarId(
+               a
+              ) [VarId]
+            ) [VarIdList]
+          ) [VarClass]
+        ) [WithVarList]
+        MethodCurlyBracket(
+          MethodDeclarations(
+            NoMethodDecl(
+            ) [NoMethodDecl]
+            MethodDeclaration(
+              MethodVoidN(
+               postaviTezinu
+              ) [MethodVoidN]
+              FormalParameters(
+                SingleFormalParamDecl(
+                  ScalarParameter(
+                    Type(
+                     int
+                    ) [Type]
+                   tezina
+                  ) [ScalarParameter]
+                ) [SingleFormalParamDecl]
+              ) [FormalParameters]
+              NoVarDeclMethod(
+              ) [NoVarDeclMethod]
+              Statements(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  FirstExp(
+                    AssignDes(
+                      DesignatorIdent(
+                       this
+                        DessignList(
+                          DesignatorEpsilon(
+                          ) [DesignatorEpsilon]
+                          DesignatorDotIdent(
+                           tezina
+                          ) [DesignatorDotIdent]
+                        ) [DessignList]
+                      ) [DesignatorIdent]
+                      EqualOp(
+                      ) [EqualOp]
+                      ExpressionTerm(
+                        JustTerms(
+                          TermsExpressionTerm(
+                            TermFactor(
+                              VarRef(
+                                DesignatorIdent(
+                                 tezina
+                                  DesignatorEpsilon(
+                                  ) [DesignatorEpsilon]
+                                ) [DesignatorIdent]
+                              ) [VarRef]
+                            ) [TermFactor]
+                          ) [TermsExpressionTerm]
+                        ) [JustTerms]
+                      ) [ExpressionTerm]
+                    ) [AssignDes]
+                  ) [FirstExp]
+                ) [Statements]
+                FirstExp(
+                  AssignDes(
+                    DesignatorIdent(
+                     vrsta
+                      DesignatorEpsilon(
+                      ) [DesignatorEpsilon]
+                    ) [DesignatorIdent]
+                    EqualOp(
+                    ) [EqualOp]
+                    ExpressionTerm(
+                      JustTerms(
+                        TermsExpressionTerm(
+                          TermFactor(
+                            CharRef(
+                             s
+                            ) [CharRef]
+                          ) [TermFactor]
+                        ) [TermsExpressionTerm]
+                      ) [JustTerms]
+                    ) [ExpressionTerm]
+                  ) [AssignDes]
+                ) [FirstExp]
+              ) [Statements]
+            ) [MethodDeclaration]
+          ) [MethodDeclarations]
+        ) [MethodCurlyBracket]
+      ) [ClassDecl1]
+    ) [ClassDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodVoidN(
+       main
+      ) [MethodVoidN]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclMethod(
+      ) [NoVarDeclMethod]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramFile]
+INFO  01:25:27,201 - ================SINTAKSNA ANALIZA===================
+INFO  01:25:27,201 - 
+2    classes
+3    methods in the program
+0    global variables
+1    global constants
+0    global arrays
+0    local variables in main
+0    statements in main
+0    function calls in main
+
+ERROR 01:25:27,201 - Parsiranje NIJE uspesno zavrseno!

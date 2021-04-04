@@ -1,0 +1,97 @@
+INFO  01:19:14,971 - Compiling source file: C:\Users\Tijana\Desktop\posl\workspace\MJCompiler\test\test301.mj
+INFO  01:19:15,033 - #2 program
+INFO  01:19:15,034 - #47 test
+INFO  01:19:15,034 - #38 {
+INFO  01:19:15,034 - #16 void
+INFO  01:19:15,035 - #47 main
+INFO  01:19:15,035 - #44 (
+INFO  01:19:15,035 - #45 )
+INFO  01:19:15,036 - #47 int
+INFO  01:19:15,036 - #47 bodovi
+INFO  01:19:15,037 - #40 ;
+INFO  01:19:15,037 - #47 bool
+INFO  01:19:15,037 - #47 bt
+INFO  01:19:15,038 - #40 ;
+INFO  01:19:15,038 - #38 {
+INFO  01:19:15,038 - #7 if
+INFO  01:19:15,038 - #44 (
+INFO  01:19:15,038 - #47 bt
+INFO  01:19:15,039 - #27 -
+INFO  01:19:15,039 - #45 )
+ERROR 01:19:15,039 - 
+Sintaksna greska na liniji 12
+INFO  01:19:15,039 - #38 {
+INFO  01:19:15,041 - #39 }
+INFO  01:19:15,041 - #39 }
+ERROR 01:19:15,041 - Izvrsen oporavak u slucaju if-a do ) u liniji  12
+INFO  01:19:15,043 - #39 }
+INFO  01:19:15,044 - ProgramFile(
+  ProgramName(
+   test
+  ) [ProgramName]
+  NoDecl(
+  ) [NoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodVoidN(
+       main
+      ) [MethodVoidN]
+      NoFormParam(
+      ) [NoFormParam]
+      WithVarListMethod(
+        WithVarListMethod(
+          NoVarDeclMethod(
+          ) [NoVarDeclMethod]
+          VarMethod(
+            Type(
+             int
+            ) [Type]
+            VarOrArrayIdMethod(
+              VarIdMethod(
+               bodovi
+              ) [VarIdMethod]
+            ) [VarOrArrayIdMethod]
+          ) [VarMethod]
+        ) [WithVarListMethod]
+        VarMethod(
+          Type(
+           bool
+          ) [Type]
+          VarOrArrayIdMethod(
+            VarIdMethod(
+             bt
+            ) [VarIdMethod]
+          ) [VarOrArrayIdMethod]
+        ) [VarMethod]
+      ) [WithVarListMethod]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        IfExp(
+          CondError(
+          ) [CondError]
+          LastStatement(
+            NoStmt(
+            ) [NoStmt]
+          ) [LastStatement]
+          NoElseSttmnt(
+          ) [NoElseSttmnt]
+        ) [IfExp]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramFile]
+INFO  01:19:15,049 - ================SINTAKSNA ANALIZA===================
+INFO  01:19:15,049 - 
+0    classes
+1    methods in the program
+0    global variables
+0    global constants
+0    global arrays
+2    local variables in main
+1    statements in main
+0    function calls in main
+
+ERROR 01:19:15,050 - Parsiranje NIJE uspesno zavrseno!

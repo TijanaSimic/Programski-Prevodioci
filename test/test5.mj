@@ -1,0 +1,14 @@
+ program test
+  //opravak od greske pri deklaraciji globalnih promenljivih - nivo A
+ 
+   int s=+5,r;
+ {
+ 
+ 	void main()	
+		   {	
+		 
+	 	
+	 }
+}
+
+

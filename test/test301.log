@@ -1,0 +1,1614 @@
+INFO  00:39:33,732 - Compiling source file: C:\Users\Tijana\Desktop\posl\workspace\MJCompiler\test\test301.mj
+INFO  00:39:33,859 - #2 program
+INFO  00:39:33,859 - #47 test301
+INFO  00:39:33,859 - #6 const
+INFO  00:39:33,860 - #47 int
+INFO  00:39:33,860 - #47 nula
+INFO  00:39:33,861 - #25 =
+INFO  00:39:33,861 - #46 0
+INFO  00:39:33,861 - #40 ;
+INFO  00:39:33,862 - #6 const
+INFO  00:39:33,862 - #47 int
+INFO  00:39:33,862 - #47 jedan
+INFO  00:39:33,862 - #25 =
+INFO  00:39:33,862 - #46 1
+INFO  00:39:33,862 - #40 ;
+INFO  00:39:33,862 - #6 const
+INFO  00:39:33,863 - #47 int
+INFO  00:39:33,863 - #47 pet
+INFO  00:39:33,863 - #25 =
+INFO  00:39:33,863 - #46 5
+INFO  00:39:33,863 - #40 ;
+INFO  00:39:33,863 - #47 int
+INFO  00:39:33,864 - #47 niz
+INFO  00:39:33,864 - #42 [
+INFO  00:39:33,864 - #43 ]
+INFO  00:39:33,864 - #40 ;
+INFO  00:39:33,864 - #47 char
+INFO  00:39:33,865 - #47 nizch
+INFO  00:39:33,865 - #42 [
+INFO  00:39:33,865 - #43 ]
+INFO  00:39:33,865 - #40 ;
+INFO  00:39:33,865 - #38 {
+INFO  00:39:33,865 - #16 void
+INFO  00:39:33,866 - #47 main
+INFO  00:39:33,866 - #44 (
+INFO  00:39:33,866 - #45 )
+INFO  00:39:33,867 - #47 int
+INFO  00:39:33,867 - #47 bodovi
+INFO  00:39:33,868 - #40 ;
+INFO  00:39:33,868 - #47 bool
+INFO  00:39:33,868 - #47 bt
+INFO  00:39:33,869 - #40 ;
+INFO  00:39:33,869 - #38 {
+INFO  00:39:33,869 - #47 bodovi
+INFO  00:39:33,870 - #25 =
+INFO  00:39:33,871 - #46 0
+INFO  00:39:33,872 - #40 ;
+INFO  00:39:33,873 - #47 bodovi
+INFO  00:39:33,873 - #31 ++
+INFO  00:39:33,873 - #40 ;
+INFO  00:39:33,873 - #47 bodovi
+INFO  00:39:33,873 - #25 =
+INFO  00:39:33,873 - #47 bodovi
+INFO  00:39:33,874 - #26 +
+INFO  00:39:33,874 - #47 jedan
+INFO  00:39:33,875 - #40 ;
+INFO  00:39:33,875 - #47 bodovi
+INFO  00:39:33,875 - #25 =
+INFO  00:39:33,876 - #47 bodovi
+INFO  00:39:33,876 - #28 *
+INFO  00:39:33,876 - #47 pet
+INFO  00:39:33,877 - #40 ;
+INFO  00:39:33,877 - #47 bodovi
+INFO  00:39:33,877 - #32 --
+INFO  00:39:33,877 - #40 ;
+INFO  00:39:33,877 - #12 print
+INFO  00:39:33,877 - #44 (
+INFO  00:39:33,877 - #47 bodovi
+INFO  00:39:33,877 - #45 )
+INFO  00:39:33,877 - #40 ;
+INFO  00:39:33,877 - #47 niz
+INFO  00:39:33,877 - #25 =
+INFO  00:39:33,878 - #11 new
+INFO  00:39:33,878 - #47 int
+INFO  00:39:33,878 - #42 [
+INFO  00:39:33,878 - #46 3
+INFO  00:39:33,878 - #43 ]
+INFO  00:39:33,878 - #40 ;
+INFO  00:39:33,878 - #47 niz
+INFO  00:39:33,878 - #42 [
+INFO  00:39:33,878 - #47 nula
+INFO  00:39:33,878 - #43 ]
+INFO  00:39:33,878 - #25 =
+INFO  00:39:33,878 - #47 jedan
+INFO  00:39:33,878 - #40 ;
+INFO  00:39:33,879 - #47 niz
+INFO  00:39:33,879 - #42 [
+INFO  00:39:33,879 - #46 1
+INFO  00:39:33,879 - #43 ]
+INFO  00:39:33,879 - #25 =
+INFO  00:39:33,879 - #46 2
+INFO  00:39:33,879 - #40 ;
+INFO  00:39:33,879 - #47 niz
+INFO  00:39:33,879 - #42 [
+INFO  00:39:33,879 - #47 niz
+INFO  00:39:33,879 - #42 [
+INFO  00:39:33,879 - #47 jedan
+INFO  00:39:33,879 - #43 ]
+INFO  00:39:33,880 - #43 ]
+INFO  00:39:33,880 - #25 =
+INFO  00:39:33,880 - #47 niz
+INFO  00:39:33,880 - #42 [
+INFO  00:39:33,880 - #47 niz
+INFO  00:39:33,880 - #42 [
+INFO  00:39:33,880 - #46 0
+INFO  00:39:33,880 - #43 ]
+INFO  00:39:33,880 - #43 ]
+INFO  00:39:33,880 - #28 *
+INFO  00:39:33,880 - #46 3
+INFO  00:39:33,881 - #40 ;
+INFO  00:39:33,881 - #47 bodovi
+INFO  00:39:33,881 - #25 =
+INFO  00:39:33,881 - #47 niz
+INFO  00:39:33,881 - #42 [
+INFO  00:39:33,881 - #46 2
+INFO  00:39:33,881 - #43 ]
+INFO  00:39:33,881 - #29 /
+INFO  00:39:33,881 - #47 niz
+INFO  00:39:33,882 - #42 [
+INFO  00:39:33,882 - #46 0
+INFO  00:39:33,882 - #43 ]
+INFO  00:39:33,882 - #40 ;
+INFO  00:39:33,882 - #12 print
+INFO  00:39:33,882 - #44 (
+INFO  00:39:33,882 - #47 bodovi
+INFO  00:39:33,882 - #45 )
+INFO  00:39:33,882 - #40 ;
+INFO  00:39:33,882 - #12 print
+INFO  00:39:33,882 - #44 (
+INFO  00:39:33,883 - #47 niz
+INFO  00:39:33,883 - #42 [
+INFO  00:39:33,883 - #46 2
+INFO  00:39:33,883 - #43 ]
+INFO  00:39:33,883 - #45 )
+INFO  00:39:33,883 - #40 ;
+INFO  00:39:33,883 - #47 nizch
+INFO  00:39:33,883 - #25 =
+INFO  00:39:33,883 - #11 new
+INFO  00:39:33,883 - #47 char
+INFO  00:39:33,883 - #42 [
+INFO  00:39:33,883 - #46 3
+INFO  00:39:33,883 - #43 ]
+INFO  00:39:33,883 - #40 ;
+INFO  00:39:33,883 - #47 nizch
+INFO  00:39:33,883 - #42 [
+INFO  00:39:33,883 - #46 0
+INFO  00:39:33,883 - #43 ]
+INFO  00:39:33,883 - #25 =
+INFO  00:39:33,884 - #49 a
+INFO  00:39:33,884 - #40 ;
+INFO  00:39:33,885 - #47 nizch
+INFO  00:39:33,885 - #42 [
+INFO  00:39:33,885 - #47 jedan
+INFO  00:39:33,885 - #43 ]
+INFO  00:39:33,885 - #25 =
+INFO  00:39:33,885 - #49 b
+INFO  00:39:33,885 - #40 ;
+INFO  00:39:33,885 - #47 nizch
+INFO  00:39:33,885 - #42 [
+INFO  00:39:33,886 - #47 pet
+INFO  00:39:33,886 - #27 -
+INFO  00:39:33,886 - #46 3
+INFO  00:39:33,886 - #43 ]
+INFO  00:39:33,886 - #25 =
+INFO  00:39:33,886 - #49 c
+INFO  00:39:33,888 - #40 ;
+INFO  00:39:33,888 - #12 print
+INFO  00:39:33,888 - #44 (
+INFO  00:39:33,888 - #47 nizch
+INFO  00:39:33,888 - #42 [
+INFO  00:39:33,888 - #46 1
+INFO  00:39:33,888 - #43 ]
+INFO  00:39:33,888 - #45 )
+INFO  00:39:33,888 - #40 ;
+INFO  00:39:33,888 - #12 print
+INFO  00:39:33,888 - #44 (
+INFO  00:39:33,888 - #47 nizch
+INFO  00:39:33,888 - #42 [
+INFO  00:39:33,888 - #47 jedan
+INFO  00:39:33,888 - #28 *
+INFO  00:39:33,888 - #46 2
+INFO  00:39:33,888 - #43 ]
+INFO  00:39:33,889 - #45 )
+INFO  00:39:33,889 - #40 ;
+INFO  00:39:33,889 - #47 bodovi
+INFO  00:39:33,889 - #25 =
+INFO  00:39:33,889 - #47 bodovi
+INFO  00:39:33,889 - #26 +
+INFO  00:39:33,889 - #44 (
+INFO  00:39:33,889 - #47 pet
+INFO  00:39:33,889 - #28 *
+INFO  00:39:33,889 - #47 jedan
+INFO  00:39:33,889 - #27 -
+INFO  00:39:33,889 - #46 1
+INFO  00:39:33,889 - #45 )
+INFO  00:39:33,889 - #28 *
+INFO  00:39:33,889 - #47 bodovi
+INFO  00:39:33,889 - #27 -
+INFO  00:39:33,889 - #44 (
+INFO  00:39:33,889 - #46 3
+INFO  00:39:33,889 - #30 %
+INFO  00:39:33,889 - #46 2
+INFO  00:39:33,890 - #26 +
+INFO  00:39:33,890 - #46 3
+INFO  00:39:33,890 - #28 *
+INFO  00:39:33,890 - #46 2
+INFO  00:39:33,890 - #27 -
+INFO  00:39:33,891 - #46 3
+INFO  00:39:33,891 - #45 )
+INFO  00:39:33,891 - #40 ;
+INFO  00:39:33,891 - #12 print
+INFO  00:39:33,891 - #44 (
+INFO  00:39:33,891 - #47 bodovi
+INFO  00:39:33,891 - #45 )
+INFO  00:39:33,891 - #40 ;
+INFO  00:39:33,891 - #13 read
+INFO  00:39:33,891 - #44 (
+INFO  00:39:33,891 - #47 bodovi
+INFO  00:39:33,891 - #45 )
+INFO  00:39:33,891 - #40 ;
+INFO  00:39:33,891 - #47 bt
+INFO  00:39:33,891 - #25 =
+INFO  00:39:33,891 - #48 1
+INFO  00:39:33,891 - #40 ;
+INFO  00:39:33,891 - #12 print
+INFO  00:39:33,891 - #44 (
+INFO  00:39:33,891 - #47 bt
+INFO  00:39:33,892 - #35 ?
+INFO  00:39:33,892 - #47 bodovi
+INFO  00:39:33,892 - #37 :
+INFO  00:39:33,892 - #47 bodovi
+INFO  00:39:33,893 - #26 +
+INFO  00:39:33,893 - #46 10
+INFO  00:39:33,893 - #45 )
+INFO  00:39:33,893 - #40 ;
+INFO  00:39:33,893 - #12 print
+INFO  00:39:33,893 - #44 (
+INFO  00:39:33,893 - #48 0
+INFO  00:39:33,893 - #35 ?
+INFO  00:39:33,893 - #47 bodovi
+INFO  00:39:33,893 - #26 +
+INFO  00:39:33,893 - #46 20
+INFO  00:39:33,893 - #37 :
+INFO  00:39:33,893 - #47 bodovi
+INFO  00:39:33,893 - #26 +
+INFO  00:39:33,893 - #46 30
+INFO  00:39:33,893 - #45 )
+INFO  00:39:33,893 - #40 ;
+INFO  00:39:33,894 - #12 print
+INFO  00:39:33,894 - #44 (
+INFO  00:39:33,894 - #47 bodovi
+INFO  00:39:33,894 - #21 >
+INFO  00:39:33,894 - #46 10
+INFO  00:39:33,894 - #35 ?
+INFO  00:39:33,895 - #49 +
+INFO  00:39:33,895 - #37 :
+INFO  00:39:33,895 - #49 -
+INFO  00:39:33,895 - #45 )
+INFO  00:39:33,895 - #40 ;
+INFO  00:39:33,895 - #39 }
+INFO  00:39:33,895 - #39 }
+INFO  00:39:33,907 - ProgramFile(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          Declarations(
+            NoDecl(
+            ) [NoDecl]
+            ConstDeclaration(
+              ConstDecl1(
+                Type(
+                 int
+                ) [Type]
+                ConstListJustPart(
+                  ConstantListIdentEqual(
+                   nula
+                    NumConstantList(
+                     0
+                    ) [NumConstantList]
+                  ) [ConstantListIdentEqual]
+                ) [ConstListJustPart]
+              ) [ConstDecl1]
+            ) [ConstDeclaration]
+          ) [Declarations]
+          ConstDeclaration(
+            ConstDecl1(
+              Type(
+               int
+              ) [Type]
+              ConstListJustPart(
+                ConstantListIdentEqual(
+                 jedan
+                  NumConstantList(
+                   1
+                  ) [NumConstantList]
+                ) [ConstantListIdentEqual]
+              ) [ConstListJustPart]
+            ) [ConstDecl1]
+          ) [ConstDeclaration]
+        ) [Declarations]
+        ConstDeclaration(
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+            ConstListJustPart(
+              ConstantListIdentEqual(
+               pet
+                NumConstantList(
+                 5
+                ) [NumConstantList]
+              ) [ConstantListIdentEqual]
+            ) [ConstListJustPart]
+          ) [ConstDecl1]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      VarDeclaration(
+        VarClassGlobal(
+          Type(
+           int
+          ) [Type]
+          VarOrArrayIdGlobal(
+            VarArrayIdGlobal(
+             niz
+            ) [VarArrayIdGlobal]
+          ) [VarOrArrayIdGlobal]
+        ) [VarClassGlobal]
+      ) [VarDeclaration]
+    ) [Declarations]
+    VarDeclaration(
+      VarClassGlobal(
+        Type(
+         char
+        ) [Type]
+        VarOrArrayIdGlobal(
+          VarArrayIdGlobal(
+           nizch
+          ) [VarArrayIdGlobal]
+        ) [VarOrArrayIdGlobal]
+      ) [VarClassGlobal]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodVoidN(
+       main
+      ) [MethodVoidN]
+      NoFormParam(
+      ) [NoFormParam]
+      WithVarListMethod(
+        WithVarListMethod(
+          NoVarDeclMethod(
+          ) [NoVarDeclMethod]
+          VarMethod(
+            Type(
+             int
+            ) [Type]
+            VarOrArrayIdMethod(
+              VarIdMethod(
+               bodovi
+              ) [VarIdMethod]
+            ) [VarOrArrayIdMethod]
+          ) [VarMethod]
+        ) [WithVarListMethod]
+        VarMethod(
+          Type(
+           bool
+          ) [Type]
+          VarOrArrayIdMethod(
+            VarIdMethod(
+             bt
+            ) [VarIdMethod]
+          ) [VarOrArrayIdMethod]
+        ) [VarMethod]
+      ) [WithVarListMethod]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          NoStmt(
+                                                          ) [NoStmt]
+                                                          FirstExp(
+                                                            AssignDes(
+                                                              DesignatorIdent(
+                                                               bodovi
+                                                                DesignatorEpsilon(
+                                                                ) [DesignatorEpsilon]
+                                                              ) [DesignatorIdent]
+                                                              EqualOp(
+                                                              ) [EqualOp]
+                                                              ExpressionTerm(
+                                                                JustTerms(
+                                                                  TermsExpressionTerm(
+                                                                    TermFactor(
+                                                                      IntRef(
+                                                                       0
+                                                                      ) [IntRef]
+                                                                    ) [TermFactor]
+                                                                  ) [TermsExpressionTerm]
+                                                                ) [JustTerms]
+                                                              ) [ExpressionTerm]
+                                                            ) [AssignDes]
+                                                          ) [FirstExp]
+                                                        ) [Statements]
+                                                        FirstExp(
+                                                          Increment(
+                                                            DesignatorIdent(
+                                                             bodovi
+                                                              DesignatorEpsilon(
+                                                              ) [DesignatorEpsilon]
+                                                            ) [DesignatorIdent]
+                                                          ) [Increment]
+                                                        ) [FirstExp]
+                                                      ) [Statements]
+                                                      FirstExp(
+                                                        AssignDes(
+                                                          DesignatorIdent(
+                                                           bodovi
+                                                            DesignatorEpsilon(
+                                                            ) [DesignatorEpsilon]
+                                                          ) [DesignatorIdent]
+                                                          EqualOp(
+                                                          ) [EqualOp]
+                                                          ExpressionTerm(
+                                                            JustTerms(
+                                                              TermsList(
+                                                                TermsExpressionTerm(
+                                                                  TermFactor(
+                                                                    VarRef(
+                                                                      DesignatorIdent(
+                                                                       bodovi
+                                                                        DesignatorEpsilon(
+                                                                        ) [DesignatorEpsilon]
+                                                                      ) [DesignatorIdent]
+                                                                    ) [VarRef]
+                                                                  ) [TermFactor]
+                                                                ) [TermsExpressionTerm]
+                                                                PlusOp(
+                                                                ) [PlusOp]
+                                                                TermFactor(
+                                                                  VarRef(
+                                                                    DesignatorIdent(
+                                                                     jedan
+                                                                      DesignatorEpsilon(
+                                                                      ) [DesignatorEpsilon]
+                                                                    ) [DesignatorIdent]
+                                                                  ) [VarRef]
+                                                                ) [TermFactor]
+                                                              ) [TermsList]
+                                                            ) [JustTerms]
+                                                          ) [ExpressionTerm]
+                                                        ) [AssignDes]
+                                                      ) [FirstExp]
+                                                    ) [Statements]
+                                                    FirstExp(
+                                                      AssignDes(
+                                                        DesignatorIdent(
+                                                         bodovi
+                                                          DesignatorEpsilon(
+                                                          ) [DesignatorEpsilon]
+                                                        ) [DesignatorIdent]
+                                                        EqualOp(
+                                                        ) [EqualOp]
+                                                        ExpressionTerm(
+                                                          JustTerms(
+                                                            TermsExpressionTerm(
+                                                              TermMullFactor(
+                                                                TermFactor(
+                                                                  VarRef(
+                                                                    DesignatorIdent(
+                                                                     bodovi
+                                                                      DesignatorEpsilon(
+                                                                      ) [DesignatorEpsilon]
+                                                                    ) [DesignatorIdent]
+                                                                  ) [VarRef]
+                                                                ) [TermFactor]
+                                                                TimesOp(
+                                                                ) [TimesOp]
+                                                                VarRef(
+                                                                  DesignatorIdent(
+                                                                   pet
+                                                                    DesignatorEpsilon(
+                                                                    ) [DesignatorEpsilon]
+                                                                  ) [DesignatorIdent]
+                                                                ) [VarRef]
+                                                              ) [TermMullFactor]
+                                                            ) [TermsExpressionTerm]
+                                                          ) [JustTerms]
+                                                        ) [ExpressionTerm]
+                                                      ) [AssignDes]
+                                                    ) [FirstExp]
+                                                  ) [Statements]
+                                                  FirstExp(
+                                                    Decrement(
+                                                      DesignatorIdent(
+                                                       bodovi
+                                                        DesignatorEpsilon(
+                                                        ) [DesignatorEpsilon]
+                                                      ) [DesignatorIdent]
+                                                    ) [Decrement]
+                                                  ) [FirstExp]
+                                                ) [Statements]
+                                                PrintStmt1(
+                                                  ExpressionTerm(
+                                                    JustTerms(
+                                                      TermsExpressionTerm(
+                                                        TermFactor(
+                                                          VarRef(
+                                                            DesignatorIdent(
+                                                             bodovi
+                                                              DesignatorEpsilon(
+                                                              ) [DesignatorEpsilon]
+                                                            ) [DesignatorIdent]
+                                                          ) [VarRef]
+                                                        ) [TermFactor]
+                                                      ) [TermsExpressionTerm]
+                                                    ) [JustTerms]
+                                                  ) [ExpressionTerm]
+                                                ) [PrintStmt1]
+                                              ) [Statements]
+                                              FirstExp(
+                                                AssignDes(
+                                                  DesignatorIdent(
+                                                   niz
+                                                    DesignatorEpsilon(
+                                                    ) [DesignatorEpsilon]
+                                                  ) [DesignatorIdent]
+                                                  EqualOp(
+                                                  ) [EqualOp]
+                                                  ExpressionTerm(
+                                                    JustTerms(
+                                                      TermsExpressionTerm(
+                                                        TermFactor(
+                                                          OperatorNewArray(
+                                                            Type(
+                                                             int
+                                                            ) [Type]
+                                                            ExpressionTerm(
+                                                              JustTerms(
+                                                                TermsExpressionTerm(
+                                                                  TermFactor(
+                                                                    IntRef(
+                                                                     3
+                                                                    ) [IntRef]
+                                                                  ) [TermFactor]
+                                                                ) [TermsExpressionTerm]
+                                                              ) [JustTerms]
+                                                            ) [ExpressionTerm]
+                                                          ) [OperatorNewArray]
+                                                        ) [TermFactor]
+                                                      ) [TermsExpressionTerm]
+                                                    ) [JustTerms]
+                                                  ) [ExpressionTerm]
+                                                ) [AssignDes]
+                                              ) [FirstExp]
+                                            ) [Statements]
+                                            FirstExp(
+                                              AssignDes(
+                                                DesignatorIdent(
+                                                 niz
+                                                  DessignList(
+                                                    DesignatorEpsilon(
+                                                    ) [DesignatorEpsilon]
+                                                    DesignatorExpr(
+                                                      ExpressionTerm(
+                                                        JustTerms(
+                                                          TermsExpressionTerm(
+                                                            TermFactor(
+                                                              VarRef(
+                                                                DesignatorIdent(
+                                                                 nula
+                                                                  DesignatorEpsilon(
+                                                                  ) [DesignatorEpsilon]
+                                                                ) [DesignatorIdent]
+                                                              ) [VarRef]
+                                                            ) [TermFactor]
+                                                          ) [TermsExpressionTerm]
+                                                        ) [JustTerms]
+                                                      ) [ExpressionTerm]
+                                                    ) [DesignatorExpr]
+                                                  ) [DessignList]
+                                                ) [DesignatorIdent]
+                                                EqualOp(
+                                                ) [EqualOp]
+                                                ExpressionTerm(
+                                                  JustTerms(
+                                                    TermsExpressionTerm(
+                                                      TermFactor(
+                                                        VarRef(
+                                                          DesignatorIdent(
+                                                           jedan
+                                                            DesignatorEpsilon(
+                                                            ) [DesignatorEpsilon]
+                                                          ) [DesignatorIdent]
+                                                        ) [VarRef]
+                                                      ) [TermFactor]
+                                                    ) [TermsExpressionTerm]
+                                                  ) [JustTerms]
+                                                ) [ExpressionTerm]
+                                              ) [AssignDes]
+                                            ) [FirstExp]
+                                          ) [Statements]
+                                          FirstExp(
+                                            AssignDes(
+                                              DesignatorIdent(
+                                               niz
+                                                DessignList(
+                                                  DesignatorEpsilon(
+                                                  ) [DesignatorEpsilon]
+                                                  DesignatorExpr(
+                                                    ExpressionTerm(
+                                                      JustTerms(
+                                                        TermsExpressionTerm(
+                                                          TermFactor(
+                                                            IntRef(
+                                                             1
+                                                            ) [IntRef]
+                                                          ) [TermFactor]
+                                                        ) [TermsExpressionTerm]
+                                                      ) [JustTerms]
+                                                    ) [ExpressionTerm]
+                                                  ) [DesignatorExpr]
+                                                ) [DessignList]
+                                              ) [DesignatorIdent]
+                                              EqualOp(
+                                              ) [EqualOp]
+                                              ExpressionTerm(
+                                                JustTerms(
+                                                  TermsExpressionTerm(
+                                                    TermFactor(
+                                                      IntRef(
+                                                       2
+                                                      ) [IntRef]
+                                                    ) [TermFactor]
+                                                  ) [TermsExpressionTerm]
+                                                ) [JustTerms]
+                                              ) [ExpressionTerm]
+                                            ) [AssignDes]
+                                          ) [FirstExp]
+                                        ) [Statements]
+                                        FirstExp(
+                                          AssignDes(
+                                            DesignatorIdent(
+                                             niz
+                                              DessignList(
+                                                DesignatorEpsilon(
+                                                ) [DesignatorEpsilon]
+                                                DesignatorExpr(
+                                                  ExpressionTerm(
+                                                    JustTerms(
+                                                      TermsExpressionTerm(
+                                                        TermFactor(
+                                                          VarRef(
+                                                            DesignatorIdent(
+                                                             niz
+                                                              DessignList(
+                                                                DesignatorEpsilon(
+                                                                ) [DesignatorEpsilon]
+                                                                DesignatorExpr(
+                                                                  ExpressionTerm(
+                                                                    JustTerms(
+                                                                      TermsExpressionTerm(
+                                                                        TermFactor(
+                                                                          VarRef(
+                                                                            DesignatorIdent(
+                                                                             jedan
+                                                                              DesignatorEpsilon(
+                                                                              ) [DesignatorEpsilon]
+                                                                            ) [DesignatorIdent]
+                                                                          ) [VarRef]
+                                                                        ) [TermFactor]
+                                                                      ) [TermsExpressionTerm]
+                                                                    ) [JustTerms]
+                                                                  ) [ExpressionTerm]
+                                                                ) [DesignatorExpr]
+                                                              ) [DessignList]
+                                                            ) [DesignatorIdent]
+                                                          ) [VarRef]
+                                                        ) [TermFactor]
+                                                      ) [TermsExpressionTerm]
+                                                    ) [JustTerms]
+                                                  ) [ExpressionTerm]
+                                                ) [DesignatorExpr]
+                                              ) [DessignList]
+                                            ) [DesignatorIdent]
+                                            EqualOp(
+                                            ) [EqualOp]
+                                            ExpressionTerm(
+                                              JustTerms(
+                                                TermsExpressionTerm(
+                                                  TermMullFactor(
+                                                    TermFactor(
+                                                      VarRef(
+                                                        DesignatorIdent(
+                                                         niz
+                                                          DessignList(
+                                                            DesignatorEpsilon(
+                                                            ) [DesignatorEpsilon]
+                                                            DesignatorExpr(
+                                                              ExpressionTerm(
+                                                                JustTerms(
+                                                                  TermsExpressionTerm(
+                                                                    TermFactor(
+                                                                      VarRef(
+                                                                        DesignatorIdent(
+                                                                         niz
+                                                                          DessignList(
+                                                                            DesignatorEpsilon(
+                                                                            ) [DesignatorEpsilon]
+                                                                            DesignatorExpr(
+                                                                              ExpressionTerm(
+                                                                                JustTerms(
+                                                                                  TermsExpressionTerm(
+                                                                                    TermFactor(
+                                                                                      IntRef(
+                                                                                       0
+                                                                                      ) [IntRef]
+                                                                                    ) [TermFactor]
+                                                                                  ) [TermsExpressionTerm]
+                                                                                ) [JustTerms]
+                                                                              ) [ExpressionTerm]
+                                                                            ) [DesignatorExpr]
+                                                                          ) [DessignList]
+                                                                        ) [DesignatorIdent]
+                                                                      ) [VarRef]
+                                                                    ) [TermFactor]
+                                                                  ) [TermsExpressionTerm]
+                                                                ) [JustTerms]
+                                                              ) [ExpressionTerm]
+                                                            ) [DesignatorExpr]
+                                                          ) [DessignList]
+                                                        ) [DesignatorIdent]
+                                                      ) [VarRef]
+                                                    ) [TermFactor]
+                                                    TimesOp(
+                                                    ) [TimesOp]
+                                                    IntRef(
+                                                     3
+                                                    ) [IntRef]
+                                                  ) [TermMullFactor]
+                                                ) [TermsExpressionTerm]
+                                              ) [JustTerms]
+                                            ) [ExpressionTerm]
+                                          ) [AssignDes]
+                                        ) [FirstExp]
+                                      ) [Statements]
+                                      FirstExp(
+                                        AssignDes(
+                                          DesignatorIdent(
+                                           bodovi
+                                            DesignatorEpsilon(
+                                            ) [DesignatorEpsilon]
+                                          ) [DesignatorIdent]
+                                          EqualOp(
+                                          ) [EqualOp]
+                                          ExpressionTerm(
+                                            JustTerms(
+                                              TermsExpressionTerm(
+                                                TermMullFactor(
+                                                  TermFactor(
+                                                    VarRef(
+                                                      DesignatorIdent(
+                                                       niz
+                                                        DessignList(
+                                                          DesignatorEpsilon(
+                                                          ) [DesignatorEpsilon]
+                                                          DesignatorExpr(
+                                                            ExpressionTerm(
+                                                              JustTerms(
+                                                                TermsExpressionTerm(
+                                                                  TermFactor(
+                                                                    IntRef(
+                                                                     2
+                                                                    ) [IntRef]
+                                                                  ) [TermFactor]
+                                                                ) [TermsExpressionTerm]
+                                                              ) [JustTerms]
+                                                            ) [ExpressionTerm]
+                                                          ) [DesignatorExpr]
+                                                        ) [DessignList]
+                                                      ) [DesignatorIdent]
+                                                    ) [VarRef]
+                                                  ) [TermFactor]
+                                                  DivOp(
+                                                  ) [DivOp]
+                                                  VarRef(
+                                                    DesignatorIdent(
+                                                     niz
+                                                      DessignList(
+                                                        DesignatorEpsilon(
+                                                        ) [DesignatorEpsilon]
+                                                        DesignatorExpr(
+                                                          ExpressionTerm(
+                                                            JustTerms(
+                                                              TermsExpressionTerm(
+                                                                TermFactor(
+                                                                  IntRef(
+                                                                   0
+                                                                  ) [IntRef]
+                                                                ) [TermFactor]
+                                                              ) [TermsExpressionTerm]
+                                                            ) [JustTerms]
+                                                          ) [ExpressionTerm]
+                                                        ) [DesignatorExpr]
+                                                      ) [DessignList]
+                                                    ) [DesignatorIdent]
+                                                  ) [VarRef]
+                                                ) [TermMullFactor]
+                                              ) [TermsExpressionTerm]
+                                            ) [JustTerms]
+                                          ) [ExpressionTerm]
+                                        ) [AssignDes]
+                                      ) [FirstExp]
+                                    ) [Statements]
+                                    PrintStmt1(
+                                      ExpressionTerm(
+                                        JustTerms(
+                                          TermsExpressionTerm(
+                                            TermFactor(
+                                              VarRef(
+                                                DesignatorIdent(
+                                                 bodovi
+                                                  DesignatorEpsilon(
+                                                  ) [DesignatorEpsilon]
+                                                ) [DesignatorIdent]
+                                              ) [VarRef]
+                                            ) [TermFactor]
+                                          ) [TermsExpressionTerm]
+                                        ) [JustTerms]
+                                      ) [ExpressionTerm]
+                                    ) [PrintStmt1]
+                                  ) [Statements]
+                                  PrintStmt1(
+                                    ExpressionTerm(
+                                      JustTerms(
+                                        TermsExpressionTerm(
+                                          TermFactor(
+                                            VarRef(
+                                              DesignatorIdent(
+                                               niz
+                                                DessignList(
+                                                  DesignatorEpsilon(
+                                                  ) [DesignatorEpsilon]
+                                                  DesignatorExpr(
+                                                    ExpressionTerm(
+                                                      JustTerms(
+                                                        TermsExpressionTerm(
+                                                          TermFactor(
+                                                            IntRef(
+                                                             2
+                                                            ) [IntRef]
+                                                          ) [TermFactor]
+                                                        ) [TermsExpressionTerm]
+                                                      ) [JustTerms]
+                                                    ) [ExpressionTerm]
+                                                  ) [DesignatorExpr]
+                                                ) [DessignList]
+                                              ) [DesignatorIdent]
+                                            ) [VarRef]
+                                          ) [TermFactor]
+                                        ) [TermsExpressionTerm]
+                                      ) [JustTerms]
+                                    ) [ExpressionTerm]
+                                  ) [PrintStmt1]
+                                ) [Statements]
+                                FirstExp(
+                                  AssignDes(
+                                    DesignatorIdent(
+                                     nizch
+                                      DesignatorEpsilon(
+                                      ) [DesignatorEpsilon]
+                                    ) [DesignatorIdent]
+                                    EqualOp(
+                                    ) [EqualOp]
+                                    ExpressionTerm(
+                                      JustTerms(
+                                        TermsExpressionTerm(
+                                          TermFactor(
+                                            OperatorNewArray(
+                                              Type(
+                                               char
+                                              ) [Type]
+                                              ExpressionTerm(
+                                                JustTerms(
+                                                  TermsExpressionTerm(
+                                                    TermFactor(
+                                                      IntRef(
+                                                       3
+                                                      ) [IntRef]
+                                                    ) [TermFactor]
+                                                  ) [TermsExpressionTerm]
+                                                ) [JustTerms]
+                                              ) [ExpressionTerm]
+                                            ) [OperatorNewArray]
+                                          ) [TermFactor]
+                                        ) [TermsExpressionTerm]
+                                      ) [JustTerms]
+                                    ) [ExpressionTerm]
+                                  ) [AssignDes]
+                                ) [FirstExp]
+                              ) [Statements]
+                              FirstExp(
+                                AssignDes(
+                                  DesignatorIdent(
+                                   nizch
+                                    DessignList(
+                                      DesignatorEpsilon(
+                                      ) [DesignatorEpsilon]
+                                      DesignatorExpr(
+                                        ExpressionTerm(
+                                          JustTerms(
+                                            TermsExpressionTerm(
+                                              TermFactor(
+                                                IntRef(
+                                                 0
+                                                ) [IntRef]
+                                              ) [TermFactor]
+                                            ) [TermsExpressionTerm]
+                                          ) [JustTerms]
+                                        ) [ExpressionTerm]
+                                      ) [DesignatorExpr]
+                                    ) [DessignList]
+                                  ) [DesignatorIdent]
+                                  EqualOp(
+                                  ) [EqualOp]
+                                  ExpressionTerm(
+                                    JustTerms(
+                                      TermsExpressionTerm(
+                                        TermFactor(
+                                          CharRef(
+                                           a
+                                          ) [CharRef]
+                                        ) [TermFactor]
+                                      ) [TermsExpressionTerm]
+                                    ) [JustTerms]
+                                  ) [ExpressionTerm]
+                                ) [AssignDes]
+                              ) [FirstExp]
+                            ) [Statements]
+                            FirstExp(
+                              AssignDes(
+                                DesignatorIdent(
+                                 nizch
+                                  DessignList(
+                                    DesignatorEpsilon(
+                                    ) [DesignatorEpsilon]
+                                    DesignatorExpr(
+                                      ExpressionTerm(
+                                        JustTerms(
+                                          TermsExpressionTerm(
+                                            TermFactor(
+                                              VarRef(
+                                                DesignatorIdent(
+                                                 jedan
+                                                  DesignatorEpsilon(
+                                                  ) [DesignatorEpsilon]
+                                                ) [DesignatorIdent]
+                                              ) [VarRef]
+                                            ) [TermFactor]
+                                          ) [TermsExpressionTerm]
+                                        ) [JustTerms]
+                                      ) [ExpressionTerm]
+                                    ) [DesignatorExpr]
+                                  ) [DessignList]
+                                ) [DesignatorIdent]
+                                EqualOp(
+                                ) [EqualOp]
+                                ExpressionTerm(
+                                  JustTerms(
+                                    TermsExpressionTerm(
+                                      TermFactor(
+                                        CharRef(
+                                         b
+                                        ) [CharRef]
+                                      ) [TermFactor]
+                                    ) [TermsExpressionTerm]
+                                  ) [JustTerms]
+                                ) [ExpressionTerm]
+                              ) [AssignDes]
+                            ) [FirstExp]
+                          ) [Statements]
+                          FirstExp(
+                            AssignDes(
+                              DesignatorIdent(
+                               nizch
+                                DessignList(
+                                  DesignatorEpsilon(
+                                  ) [DesignatorEpsilon]
+                                  DesignatorExpr(
+                                    ExpressionTerm(
+                                      JustTerms(
+                                        TermsList(
+                                          TermsExpressionTerm(
+                                            TermFactor(
+                                              VarRef(
+                                                DesignatorIdent(
+                                                 pet
+                                                  DesignatorEpsilon(
+                                                  ) [DesignatorEpsilon]
+                                                ) [DesignatorIdent]
+                                              ) [VarRef]
+                                            ) [TermFactor]
+                                          ) [TermsExpressionTerm]
+                                          MinusOp(
+                                          ) [MinusOp]
+                                          TermFactor(
+                                            IntRef(
+                                             3
+                                            ) [IntRef]
+                                          ) [TermFactor]
+                                        ) [TermsList]
+                                      ) [JustTerms]
+                                    ) [ExpressionTerm]
+                                  ) [DesignatorExpr]
+                                ) [DessignList]
+                              ) [DesignatorIdent]
+                              EqualOp(
+                              ) [EqualOp]
+                              ExpressionTerm(
+                                JustTerms(
+                                  TermsExpressionTerm(
+                                    TermFactor(
+                                      CharRef(
+                                       c
+                                      ) [CharRef]
+                                    ) [TermFactor]
+                                  ) [TermsExpressionTerm]
+                                ) [JustTerms]
+                              ) [ExpressionTerm]
+                            ) [AssignDes]
+                          ) [FirstExp]
+                        ) [Statements]
+                        PrintStmt1(
+                          ExpressionTerm(
+                            JustTerms(
+                              TermsExpressionTerm(
+                                TermFactor(
+                                  VarRef(
+                                    DesignatorIdent(
+                                     nizch
+                                      DessignList(
+                                        DesignatorEpsilon(
+                                        ) [DesignatorEpsilon]
+                                        DesignatorExpr(
+                                          ExpressionTerm(
+                                            JustTerms(
+                                              TermsExpressionTerm(
+                                                TermFactor(
+                                                  IntRef(
+                                                   1
+                                                  ) [IntRef]
+                                                ) [TermFactor]
+                                              ) [TermsExpressionTerm]
+                                            ) [JustTerms]
+                                          ) [ExpressionTerm]
+                                        ) [DesignatorExpr]
+                                      ) [DessignList]
+                                    ) [DesignatorIdent]
+                                  ) [VarRef]
+                                ) [TermFactor]
+                              ) [TermsExpressionTerm]
+                            ) [JustTerms]
+                          ) [ExpressionTerm]
+                        ) [PrintStmt1]
+                      ) [Statements]
+                      PrintStmt1(
+                        ExpressionTerm(
+                          JustTerms(
+                            TermsExpressionTerm(
+                              TermFactor(
+                                VarRef(
+                                  DesignatorIdent(
+                                   nizch
+                                    DessignList(
+                                      DesignatorEpsilon(
+                                      ) [DesignatorEpsilon]
+                                      DesignatorExpr(
+                                        ExpressionTerm(
+                                          JustTerms(
+                                            TermsExpressionTerm(
+                                              TermMullFactor(
+                                                TermFactor(
+                                                  VarRef(
+                                                    DesignatorIdent(
+                                                     jedan
+                                                      DesignatorEpsilon(
+                                                      ) [DesignatorEpsilon]
+                                                    ) [DesignatorIdent]
+                                                  ) [VarRef]
+                                                ) [TermFactor]
+                                                TimesOp(
+                                                ) [TimesOp]
+                                                IntRef(
+                                                 2
+                                                ) [IntRef]
+                                              ) [TermMullFactor]
+                                            ) [TermsExpressionTerm]
+                                          ) [JustTerms]
+                                        ) [ExpressionTerm]
+                                      ) [DesignatorExpr]
+                                    ) [DessignList]
+                                  ) [DesignatorIdent]
+                                ) [VarRef]
+                              ) [TermFactor]
+                            ) [TermsExpressionTerm]
+                          ) [JustTerms]
+                        ) [ExpressionTerm]
+                      ) [PrintStmt1]
+                    ) [Statements]
+                    FirstExp(
+                      AssignDes(
+                        DesignatorIdent(
+                         bodovi
+                          DesignatorEpsilon(
+                          ) [DesignatorEpsilon]
+                        ) [DesignatorIdent]
+                        EqualOp(
+                        ) [EqualOp]
+                        ExpressionTerm(
+                          JustTerms(
+                            TermsList(
+                              TermsList(
+                                TermsExpressionTerm(
+                                  TermFactor(
+                                    VarRef(
+                                      DesignatorIdent(
+                                       bodovi
+                                        DesignatorEpsilon(
+                                        ) [DesignatorEpsilon]
+                                      ) [DesignatorIdent]
+                                    ) [VarRef]
+                                  ) [TermFactor]
+                                ) [TermsExpressionTerm]
+                                PlusOp(
+                                ) [PlusOp]
+                                TermMullFactor(
+                                  TermFactor(
+                                    ParenthesisExpr(
+                                      ExpressionTerm(
+                                        JustTerms(
+                                          TermsList(
+                                            TermsExpressionTerm(
+                                              TermMullFactor(
+                                                TermFactor(
+                                                  VarRef(
+                                                    DesignatorIdent(
+                                                     pet
+                                                      DesignatorEpsilon(
+                                                      ) [DesignatorEpsilon]
+                                                    ) [DesignatorIdent]
+                                                  ) [VarRef]
+                                                ) [TermFactor]
+                                                TimesOp(
+                                                ) [TimesOp]
+                                                VarRef(
+                                                  DesignatorIdent(
+                                                   jedan
+                                                    DesignatorEpsilon(
+                                                    ) [DesignatorEpsilon]
+                                                  ) [DesignatorIdent]
+                                                ) [VarRef]
+                                              ) [TermMullFactor]
+                                            ) [TermsExpressionTerm]
+                                            MinusOp(
+                                            ) [MinusOp]
+                                            TermFactor(
+                                              IntRef(
+                                               1
+                                              ) [IntRef]
+                                            ) [TermFactor]
+                                          ) [TermsList]
+                                        ) [JustTerms]
+                                      ) [ExpressionTerm]
+                                    ) [ParenthesisExpr]
+                                  ) [TermFactor]
+                                  TimesOp(
+                                  ) [TimesOp]
+                                  VarRef(
+                                    DesignatorIdent(
+                                     bodovi
+                                      DesignatorEpsilon(
+                                      ) [DesignatorEpsilon]
+                                    ) [DesignatorIdent]
+                                  ) [VarRef]
+                                ) [TermMullFactor]
+                              ) [TermsList]
+                              MinusOp(
+                              ) [MinusOp]
+                              TermFactor(
+                                ParenthesisExpr(
+                                  ExpressionTerm(
+                                    JustTerms(
+                                      TermsList(
+                                        TermsList(
+                                          TermsExpressionTerm(
+                                            TermMullFactor(
+                                              TermFactor(
+                                                IntRef(
+                                                 3
+                                                ) [IntRef]
+                                              ) [TermFactor]
+                                              ModOp(
+                                              ) [ModOp]
+                                              IntRef(
+                                               2
+                                              ) [IntRef]
+                                            ) [TermMullFactor]
+                                          ) [TermsExpressionTerm]
+                                          PlusOp(
+                                          ) [PlusOp]
+                                          TermMullFactor(
+                                            TermFactor(
+                                              IntRef(
+                                               3
+                                              ) [IntRef]
+                                            ) [TermFactor]
+                                            TimesOp(
+                                            ) [TimesOp]
+                                            IntRef(
+                                             2
+                                            ) [IntRef]
+                                          ) [TermMullFactor]
+                                        ) [TermsList]
+                                        MinusOp(
+                                        ) [MinusOp]
+                                        TermFactor(
+                                          IntRef(
+                                           3
+                                          ) [IntRef]
+                                        ) [TermFactor]
+                                      ) [TermsList]
+                                    ) [JustTerms]
+                                  ) [ExpressionTerm]
+                                ) [ParenthesisExpr]
+                              ) [TermFactor]
+                            ) [TermsList]
+                          ) [JustTerms]
+                        ) [ExpressionTerm]
+                      ) [AssignDes]
+                    ) [FirstExp]
+                  ) [Statements]
+                  PrintStmt1(
+                    ExpressionTerm(
+                      JustTerms(
+                        TermsExpressionTerm(
+                          TermFactor(
+                            VarRef(
+                              DesignatorIdent(
+                               bodovi
+                                DesignatorEpsilon(
+                                ) [DesignatorEpsilon]
+                              ) [DesignatorIdent]
+                            ) [VarRef]
+                          ) [TermFactor]
+                        ) [TermsExpressionTerm]
+                      ) [JustTerms]
+                    ) [ExpressionTerm]
+                  ) [PrintStmt1]
+                ) [Statements]
+                ReadExpr(
+                  DesignatorIdent(
+                   bodovi
+                    DesignatorEpsilon(
+                    ) [DesignatorEpsilon]
+                  ) [DesignatorIdent]
+                ) [ReadExpr]
+              ) [Statements]
+              FirstExp(
+                AssignDes(
+                  DesignatorIdent(
+                   bt
+                    DesignatorEpsilon(
+                    ) [DesignatorEpsilon]
+                  ) [DesignatorIdent]
+                  EqualOp(
+                  ) [EqualOp]
+                  ExpressionTerm(
+                    JustTerms(
+                      TermsExpressionTerm(
+                        TermFactor(
+                          BoolRef(
+                           1
+                          ) [BoolRef]
+                        ) [TermFactor]
+                      ) [TermsExpressionTerm]
+                    ) [JustTerms]
+                  ) [ExpressionTerm]
+                ) [AssignDes]
+              ) [FirstExp]
+            ) [Statements]
+            PrintStmt1(
+              ExpressionConditions(
+                WholeCondition(
+                  ConditionTermOne(
+                    ConditionFactOne(
+                      CondFactExpressionTerms(
+                        JustTerms(
+                          TermsExpressionTerm(
+                            TermFactor(
+                              VarRef(
+                                DesignatorIdent(
+                                 bt
+                                  DesignatorEpsilon(
+                                  ) [DesignatorEpsilon]
+                                ) [DesignatorIdent]
+                              ) [VarRef]
+                            ) [TermFactor]
+                          ) [TermsExpressionTerm]
+                        ) [JustTerms]
+                      ) [CondFactExpressionTerms]
+                    ) [ConditionFactOne]
+                  ) [ConditionTermOne]
+                  ExpressionTerm(
+                    JustTerms(
+                      TermsExpressionTerm(
+                        TermFactor(
+                          VarRef(
+                            DesignatorIdent(
+                             bodovi
+                              DesignatorEpsilon(
+                              ) [DesignatorEpsilon]
+                            ) [DesignatorIdent]
+                          ) [VarRef]
+                        ) [TermFactor]
+                      ) [TermsExpressionTerm]
+                    ) [JustTerms]
+                  ) [ExpressionTerm]
+                  SemiColonCondition(
+                  ) [SemiColonCondition]
+                  ExprOne(
+                    ExpressionTerm(
+                      JustTerms(
+                        TermsList(
+                          TermsExpressionTerm(
+                            TermFactor(
+                              VarRef(
+                                DesignatorIdent(
+                                 bodovi
+                                  DesignatorEpsilon(
+                                  ) [DesignatorEpsilon]
+                                ) [DesignatorIdent]
+                              ) [VarRef]
+                            ) [TermFactor]
+                          ) [TermsExpressionTerm]
+                          PlusOp(
+                          ) [PlusOp]
+                          TermFactor(
+                            IntRef(
+                             10
+                            ) [IntRef]
+                          ) [TermFactor]
+                        ) [TermsList]
+                      ) [JustTerms]
+                    ) [ExpressionTerm]
+                  ) [ExprOne]
+                ) [WholeCondition]
+              ) [ExpressionConditions]
+            ) [PrintStmt1]
+          ) [Statements]
+          PrintStmt1(
+            ExpressionConditions(
+              WholeCondition(
+                ConditionTermOne(
+                  ConditionFactOne(
+                    CondFactExpressionTerms(
+                      JustTerms(
+                        TermsExpressionTerm(
+                          TermFactor(
+                            BoolRef(
+                             0
+                            ) [BoolRef]
+                          ) [TermFactor]
+                        ) [TermsExpressionTerm]
+                      ) [JustTerms]
+                    ) [CondFactExpressionTerms]
+                  ) [ConditionFactOne]
+                ) [ConditionTermOne]
+                ExpressionTerm(
+                  JustTerms(
+                    TermsList(
+                      TermsExpressionTerm(
+                        TermFactor(
+                          VarRef(
+                            DesignatorIdent(
+                             bodovi
+                              DesignatorEpsilon(
+                              ) [DesignatorEpsilon]
+                            ) [DesignatorIdent]
+                          ) [VarRef]
+                        ) [TermFactor]
+                      ) [TermsExpressionTerm]
+                      PlusOp(
+                      ) [PlusOp]
+                      TermFactor(
+                        IntRef(
+                         20
+                        ) [IntRef]
+                      ) [TermFactor]
+                    ) [TermsList]
+                  ) [JustTerms]
+                ) [ExpressionTerm]
+                SemiColonCondition(
+                ) [SemiColonCondition]
+                ExprOne(
+                  ExpressionTerm(
+                    JustTerms(
+                      TermsList(
+                        TermsExpressionTerm(
+                          TermFactor(
+                            VarRef(
+                              DesignatorIdent(
+                               bodovi
+                                DesignatorEpsilon(
+                                ) [DesignatorEpsilon]
+                              ) [DesignatorIdent]
+                            ) [VarRef]
+                          ) [TermFactor]
+                        ) [TermsExpressionTerm]
+                        PlusOp(
+                        ) [PlusOp]
+                        TermFactor(
+                          IntRef(
+                           30
+                          ) [IntRef]
+                        ) [TermFactor]
+                      ) [TermsList]
+                    ) [JustTerms]
+                  ) [ExpressionTerm]
+                ) [ExprOne]
+              ) [WholeCondition]
+            ) [ExpressionConditions]
+          ) [PrintStmt1]
+        ) [Statements]
+        PrintStmt1(
+          ExpressionConditions(
+            WholeCondition(
+              ConditionTermOne(
+                ConditionFactOne(
+                  CondFactExpressionTermsList(
+                    JustTerms(
+                      TermsExpressionTerm(
+                        TermFactor(
+                          VarRef(
+                            DesignatorIdent(
+                             bodovi
+                              DesignatorEpsilon(
+                              ) [DesignatorEpsilon]
+                            ) [DesignatorIdent]
+                          ) [VarRef]
+                        ) [TermFactor]
+                      ) [TermsExpressionTerm]
+                    ) [JustTerms]
+                    GreaterOp(
+                    ) [GreaterOp]
+                    ExpressionTermsOne(
+                      JustTerms(
+                        TermsExpressionTerm(
+                          TermFactor(
+                            IntRef(
+                             10
+                            ) [IntRef]
+                          ) [TermFactor]
+                        ) [TermsExpressionTerm]
+                      ) [JustTerms]
+                    ) [ExpressionTermsOne]
+                  ) [CondFactExpressionTermsList]
+                ) [ConditionFactOne]
+              ) [ConditionTermOne]
+              ExpressionTerm(
+                JustTerms(
+                  TermsExpressionTerm(
+                    TermFactor(
+                      CharRef(
+                       +
+                      ) [CharRef]
+                    ) [TermFactor]
+                  ) [TermsExpressionTerm]
+                ) [JustTerms]
+              ) [ExpressionTerm]
+              SemiColonCondition(
+              ) [SemiColonCondition]
+              ExprOne(
+                ExpressionTerm(
+                  JustTerms(
+                    TermsExpressionTerm(
+                      TermFactor(
+                        CharRef(
+                         -
+                        ) [CharRef]
+                      ) [TermFactor]
+                    ) [TermsExpressionTerm]
+                  ) [JustTerms]
+                ) [ExpressionTerm]
+              ) [ExprOne]
+            ) [WholeCondition]
+          ) [ExpressionConditions]
+        ) [PrintStmt1]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramFile]
+INFO  00:39:33,919 - ================SINTAKSNA ANALIZA===================
+INFO  00:39:33,920 - 
+0    classes
+1    methods in the program
+0    global variables
+3    global constants
+2    global arrays
+2    local variables in main
+26    statements in main
+0    function calls in main
+
+INFO  00:39:33,922 - Deklarisana je konstanta Con nula: int, 0, 0 na liniji 5
+INFO  00:39:33,922 - Deklarisana je konstanta Con jedan: int, 1, 0 na liniji 6
+INFO  00:39:33,922 - Deklarisana je konstanta Con pet: int, 5, 0 na liniji 7
+INFO  00:39:33,923 - Deklarisana je promenljiva Var niz: Array of int, 0, 0 na liniji 9
+INFO  00:39:33,923 - Deklarisana je promenljiva Var nizch: Array of char, 1, 0 na liniji 10
+INFO  00:39:33,923 - Obradjuje se funkcija Meth main: none, 0, 0 na liniji 13
+INFO  00:39:33,923 - Deklarisana je promenljiva Var bodovi: int, 0, 1 na liniji 14
+INFO  00:39:33,923 - Deklarisana je promenljiva Var bt: bool, 1, 1 na liniji 15
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 17
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 18
+INFO  00:39:33,923 - Inkrementiranje promenljive Var bodovi: int, 0, 1 na liniji 18
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 19
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 19
+INFO  00:39:33,923 - Koriscenje promenljive Con jedan: int, 1, 0 na liniji 19
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 20
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 20
+INFO  00:39:33,923 - Koriscenje promenljive Con pet: int, 5, 0 na liniji 20
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 21
+INFO  00:39:33,923 - Dekrementiranje promenljive Var bodovi: int, 0, 1 na liniji 21
+INFO  00:39:33,923 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 22
+INFO  00:39:33,923 - Poziv print metode  na liniji 22
+INFO  00:39:33,923 - Koriscenje promenljive Var niz: Array of int, 0, 0 na liniji 25
+INFO  00:39:33,923 - Definicija niza tipa int na liniji 25
+INFO  00:39:33,923 - Koriscenje promenljive Con nula: int, 0, 0 na liniji 26
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 26
+INFO  00:39:33,924 - Koriscenje promenljive Con jedan: int, 1, 0 na liniji 26
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 27
+INFO  00:39:33,924 - Koriscenje promenljive Con jedan: int, 1, 0 na liniji 28
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 28
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 28
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 28
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 28
+INFO  00:39:33,924 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 29
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 29
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 29
+INFO  00:39:33,924 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 30
+INFO  00:39:33,924 - Poziv print metode  na liniji 30
+INFO  00:39:33,924 - Koriscenje elementa niza Var niz: Array of int, 0, 0 na liniji 31
+INFO  00:39:33,924 - Poziv print metode  na liniji 31
+INFO  00:39:33,924 - Koriscenje promenljive Var nizch: Array of char, 1, 0 na liniji 34
+INFO  00:39:33,924 - Definicija niza tipa char na liniji 34
+INFO  00:39:33,924 - Koriscenje elementa niza Var nizch: Array of char, 1, 0 na liniji 35
+INFO  00:39:33,924 - Koriscenje promenljive Con jedan: int, 1, 0 na liniji 36
+INFO  00:39:33,924 - Koriscenje elementa niza Var nizch: Array of char, 1, 0 na liniji 36
+INFO  00:39:33,924 - Koriscenje promenljive Con pet: int, 5, 0 na liniji 37
+INFO  00:39:33,925 - Koriscenje elementa niza Var nizch: Array of char, 1, 0 na liniji 37
+INFO  00:39:33,925 - Koriscenje elementa niza Var nizch: Array of char, 1, 0 na liniji 38
+INFO  00:39:33,925 - Poziv print metode  na liniji 38
+INFO  00:39:33,925 - Koriscenje promenljive Con jedan: int, 1, 0 na liniji 39
+INFO  00:39:33,925 - Koriscenje elementa niza Var nizch: Array of char, 1, 0 na liniji 39
+INFO  00:39:33,925 - Poziv print metode  na liniji 39
+INFO  00:39:33,925 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 42
+INFO  00:39:33,925 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 42
+INFO  00:39:33,925 - Koriscenje promenljive Con pet: int, 5, 0 na liniji 42
+INFO  00:39:33,925 - Koriscenje promenljive Con jedan: int, 1, 0 na liniji 42
+INFO  00:39:33,925 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 42
+INFO  00:39:33,925 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 43
+INFO  00:39:33,925 - Poziv print metode  na liniji 43
+INFO  00:39:33,925 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 45
+INFO  00:39:33,926 - Poziv read metode  na liniji 45
+INFO  00:39:33,926 - Koriscenje promenljive Var bt: bool, 1, 1 na liniji 46
+INFO  00:39:33,926 - Koriscenje promenljive Var bt: bool, 1, 1 na liniji 48
+INFO  00:39:33,926 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 48
+INFO  00:39:33,926 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 48
+INFO  00:39:33,926 - Koriscenje ternarnog operatora  na liniji 48
+INFO  00:39:33,926 - Poziv print metode  na liniji 48
+INFO  00:39:33,926 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 49
+INFO  00:39:33,926 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 49
+INFO  00:39:33,926 - Koriscenje ternarnog operatora  na liniji 49
+INFO  00:39:33,926 - Poziv print metode  na liniji 49
+INFO  00:39:33,926 - Koriscenje promenljive Var bodovi: int, 0, 1 na liniji 50
+INFO  00:39:33,927 - Koriscenje ternarnog operatora  na liniji 50
+INFO  00:39:33,927 - Poziv print metode  na liniji 50
+INFO  00:39:33,927 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,354 @@
+  pos: instruction operands
+     | expressionstack
+-----------------------------
+    0: enter       0 2 
+     | 
+    3: const_0     
+     | 0 
+    4: store_0     
+     | 
+    5: load_0      
+     | 0 
+    6: const_1     
+     | 0 1 
+    7: add         
+     | 1 
+    8: store_0     
+     | 
+    9: load_0      
+     | 1 
+   10: const_1     
+     | 1 1 
+   11: add         
+     | 2 
+   12: store_0     
+     | 
+   13: load_0      
+     | 2 
+   14: const_5     
+     | 2 5 
+   15: mul         
+     | 10 
+   16: store_0     
+     | 
+   17: load_0      
+     | 10 
+   18: const_1     
+     | 10 1 
+   19: sub         
+     | 9 
+   20: store_0     
+     | 
+   21: load_0      
+     | 9 
+   22: const_5     
+     | 9 5 
+   23: print           9
+     | 
+   24: const_3     
+     | 3 
+   25: newarray    1 
+     | 2 
+   27: putstatic   0 
+     | 
+   30: const_0     
+     | 0 
+   31: getstatic   0 
+     | 0 2 
+   34: ???         
+     | 2 0 2 
+   35: pop         
+     | 2 0 
+   36: const_1     
+     | 2 0 1 
+   37: astore      
+Arraylength = 3
+Address = 2
+Index = 0
+Value = 1
+
+     | 
+   38: const_1     
+     | 1 
+   39: getstatic   0 
+     | 1 2 
+   42: ???         
+     | 2 1 2 
+   43: pop         
+     | 2 1 
+   44: const_2     
+     | 2 1 2 
+   45: astore      
+Arraylength = 3
+Address = 2
+Index = 1
+Value = 2
+
+     | 
+   46: const_1     
+     | 1 
+   47: getstatic   0 
+     | 1 2 
+   50: ???         
+     | 2 1 2 
+   51: pop         
+     | 2 1 
+   52: aload       
+     | 2 
+   53: getstatic   0 
+     | 2 2 
+   56: ???         
+     | 2 2 2 
+   57: pop         
+     | 2 2 
+   58: const_0     
+     | 2 2 0 
+   59: getstatic   0 
+     | 2 2 0 2 
+   62: ???         
+     | 2 2 2 0 2 
+   63: pop         
+     | 2 2 2 0 
+   64: aload       
+     | 2 2 1 
+   65: getstatic   0 
+     | 2 2 1 2 
+   68: ???         
+     | 2 2 2 1 2 
+   69: pop         
+     | 2 2 2 1 
+   70: aload       
+     | 2 2 2 
+   71: const_3     
+     | 2 2 2 3 
+   72: mul         
+     | 2 2 6 
+   73: astore      
+Arraylength = 3
+Address = 2
+Index = 2
+Value = 6
+
+     | 
+   74: const_2     
+     | 2 
+   75: getstatic   0 
+     | 2 2 
+   78: ???         
+     | 2 2 2 
+   79: pop         
+     | 2 2 
+   80: aload       
+     | 6 
+   81: const_0     
+     | 6 0 
+   82: getstatic   0 
+     | 6 0 2 
+   85: ???         
+     | 6 2 0 2 
+   86: pop         
+     | 6 2 0 
+   87: aload       
+     | 6 1 
+   88: div         
+     | 6 
+   89: store_0     
+     | 
+   90: load_0      
+     | 6 
+   91: const_5     
+     | 6 5 
+   92: print           6
+     | 
+   93: const_2     
+     | 2 
+   94: getstatic   0 
+     | 2 2 
+   97: ???         
+     | 2 2 2 
+   98: pop         
+     | 2 2 
+   99: aload       
+     | 6 
+  100: const_5     
+     | 6 5 
+  101: print           6
+     | 
+  102: const_3     
+     | 3 
+  103: newarray    0 
+     | 6 
+  105: putstatic   1 
+     | 
+  108: const_0     
+     | 0 
+  109: getstatic   1 
+     | 0 6 
+  112: ???         
+     | 6 0 6 
+  113: pop         
+     | 6 0 
+  114: const       97 
+     | 6 0 97 
+  119: bastore     
+     | 
+  120: const_1     
+     | 1 
+  121: getstatic   1 
+     | 1 6 
+  124: ???         
+     | 6 1 6 
+  125: pop         
+     | 6 1 
+  126: const       98 
+     | 6 1 98 
+  131: bastore     
+     | 
+  132: const_5     
+     | 5 
+  133: const_3     
+     | 5 3 
+  134: sub         
+     | 2 
+  135: getstatic   1 
+     | 2 6 
+  138: ???         
+     | 6 2 6 
+  139: pop         
+     | 6 2 
+  140: const       99 
+     | 6 2 99 
+  145: bastore     
+     | 
+  146: const_1     
+     | 1 
+  147: getstatic   1 
+     | 1 6 
+  150: ???         
+     | 6 1 6 
+  151: pop         
+     | 6 1 
+  152: baload      
+     | 98 
+  153: const_1     
+     | 98 1 
+  154: bprint      b
+     | 
+  155: const_1     
+     | 1 
+  156: const_2     
+     | 1 2 
+  157: mul         
+     | 2 
+  158: getstatic   1 
+     | 2 6 
+  161: ???         
+     | 6 2 6 
+  162: pop         
+     | 6 2 
+  163: baload      
+     | 99 
+  164: const_1     
+     | 99 1 
+  165: bprint      c
+     | 
+  166: load_0      
+     | 6 
+  167: const_5     
+     | 6 5 
+  168: const_1     
+     | 6 5 1 
+  169: mul         
+     | 6 5 
+  170: const_1     
+     | 6 5 1 
+  171: sub         
+     | 6 4 
+  172: load_0      
+     | 6 4 6 
+  173: mul         
+     | 6 24 
+  174: add         
+     | 30 
+  175: const_3     
+     | 30 3 
+  176: const_2     
+     | 30 3 2 
+  177: rem         
+     | 30 1 
+  178: const_3     
+     | 30 1 3 
+  179: const_2     
+     | 30 1 3 2 
+  180: mul         
+     | 30 1 6 
+  181: add         
+     | 30 7 
+  182: const_3     
+     | 30 7 3 
+  183: sub         
+     | 30 4 
+  184: sub         
+     | 26 
+  185: store_0     
+     | 
+  186: load_0      
+     | 26 
+  187: const_5     
+     | 26 5 
+  188: print          26
+     | 
+  189: read        4
+
+     | 4 
+  190: store_0     
+     | 
+  191: const_1     
+     | 1 
+  192: store_1     
+     | 
+  193: load_1      
+     | 1 
+  194: const_0     
+     | 1 0 
+  195: jle         7 
+     | 
+  198: load_0      
+     | 4 
+  199: jmp         10 
+     | 4 
+  209: const_5     
+     | 4 5 
+  210: print           4
+     | 
+  211: const_0     
+     | 0 
+  212: const_0     
+     | 0 0 
+  213: jle         13 
+     | 
+  226: load_0      
+     | 4 
+  227: const       30 
+     | 4 30 
+  232: add         
+     | 34 
+  233: const_5     
+     | 34 5 
+  234: print          34
+     | 
+  235: load_0      
+     | 4 
+  236: const       10 
+     | 4 10 
+  241: jle         11 
+     | 
+  252: const       45 
+     | 45 
+  257: const_1     
+     | 45 1 
+  258: bprint      -
+     | 
+  259: exit        
+     | 
+  260: return      

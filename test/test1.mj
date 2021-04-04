@@ -1,0 +1,14 @@
+ program test
+  //leksicka greska i oporavak pri definisanju konstante - nivo A
+ 
+ const int @=4;
+ {
+ 
+ 	void main()	
+		   {	
+		 
+	 	
+	 }
+}
+
+

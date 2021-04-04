@@ -1,0 +1,474 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+init with {: 
+	errorDetected=false;
+:}
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+ 
+ 
+
+terminal PROGRAM ,BREAK, CLASS, ELSE, CONST, IF, SWITCH, DO, WHILE;
+terminal  NEW, PRINT,READ, RETURN, EXTENDS, VOID, CONTINUE, CASE ;
+
+terminal EQUALS, NOT_EQUALS, GREATER, GREATER_EQUALS, LESS, LESS_EQUALS, EQUAL;
+terminal PLUS, MINUS, MUL, DIV, MOD, INC, DEC, OR, AND, QUESTION_MARK, DOT, COLON;
+terminal L_CURRLY_BR, R_CURRLY_BR, SEMI,  COMMA;
+terminal L_SQUARE_BR, R_SQUARE_BR, L_ROUND_BR, R_ROUND_BR;
+
+terminal Integer NUMCONST ;
+terminal String IDENT ;
+terminal Integer BOOLCONST;
+terminal Character CHARCONST;
+
+nonterminal ConditionEr;
+nonterminal ConstPart;
+nonterminal DeclList;
+nonterminal DeclPart;
+nonterminal ConstDecl;
+nonterminal ConstList;
+nonterminal ClassDecl;
+
+nonterminal VarDecl;
+nonterminal VarDeclMethod;
+nonterminal VarDeclGlobal;
+nonterminal VarList;
+nonterminal VarListMethod;
+nonterminal VarListGlobal;
+nonterminal VarPart;
+nonterminal VarPartMethod; 
+nonterminal VarDeclList; 
+nonterminal VarDeclListMethod;
+
+nonterminal ExtendsType; 
+
+nonterminal MethodDeclCurlyBr;
+nonterminal MethodDeclList; 
+nonterminal SemiColonCond; 
+ 
+nonterminal FormPars; 
+nonterminal FormalParamList; 
+nonterminal FormalParamDecl; 
+nonterminal StatementList; 
+nonterminal Statement; 
+nonterminal ElseStatement; 
+nonterminal CaseStatementList; 
+nonterminal CaseStatement;
+nonterminal DesignatorStatement;
+nonterminal ActPars;
+nonterminal ActualParamList;
+nonterminal DesignatorList;
+nonterminal DesignatorPart;
+
+
+nonterminal Assignop; 
+nonterminal Relop; 
+nonterminal Addop; 
+nonterminal Mulop; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Condition; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct CondTerm; 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct CondFact;  
+ 
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ExpressionCondition,ExpressionTerms1; 
+ 
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName,Program,Designator,MethodTypeName,MethodDecl,VarPartGlobal;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type,ConstantList,Factor,Term,Expr,Expr1,ExpressionTerms,Terms;
+precedence left ELSE;
+
+
+Program ::= (ProgramFile) PROGRAM ProgName:p DeclList L_CURRLY_BR MethodDeclList R_CURRLY_BR 
+;
+
+ 
+
+ProgName ::= (ProgramName) IDENT:pName 
+;
+
+DeclList ::= (Declarations) DeclList DeclPart  
+				|
+				(NoDecl)/* epsilon */ 
+;
+
+DeclPart ::= (ConstDeclaration) ConstDecl
+				|
+			 (VarDeclaration) VarDeclGlobal 
+			 	| 
+			 (ClassDeclaration) ClassDecl
+;
+
+ConstDecl ::= (ConstDecl1) CONST Type:constType ConstList SEMI
+			|
+			(ConstError) CONST error:e SEMI
+		{: parser.report_error("Izvrsen oporavak pri deklarisanju konstante do ; u liniji  " +eleft, null);  :};
+			
+ConstList ::= (ConstListComaConstPart) ConstList COMMA  ConstPart
+				| 
+				(ConstListJustPart) ConstPart
+				 
+				    
+; 
+ConstPart ::= (ConstantListIdentEqual) IDENT:constIdent EQUAL ConstantList
+				| (ConstDeclErrorr) error:e
+                                        {:
+                                           parser.report_error("Uspesan oporavak od greske na liniji " + eleft +
+                                                       " pri definisanju konstante do ,", null);
+                                        :}
+;
+
+ConstantList ::= (NumConstantList) NUMCONST:numCon
+				| (CharConstantList) CHARCONST:charCon
+				| (ConstBoolList) BOOLCONST:boolCon
+			 
+;
+
+ 
+ 
+
+VarDecl ::= (VarClass) Type: t  VarList SEMI
+		| 
+		(VarClassError) error:e SEMI
+		{: parser.report_error("Izvrsen oporavak pri deklarisanju varijable do ; u liniji  " +eleft, null);  :}
+;
+
+VarDeclGlobal ::= (VarClassGlobal) Type: t  VarListGlobal SEMI
+		| 
+		(VarClassErrorGlobal) error:e SEMI
+		{: parser.report_error("Izvrsen oporavak pri deklarisanju varijable do ; u liniji  " +eleft, null);  :}
+;
+
+
+VarDeclMethod ::= (VarMethod) Type: t  VarListMethod SEMI
+		| 
+		(VarErrorMethod) error:e SEMI
+		{: parser.report_error("Izvrsen oporavak pri deklarisanju varijable do ; u liniji  " +eleft, null);  :}
+;
+
+VarList ::= (VarIdList) VarList COMMA VarPart 
+		 | 
+ 		(VarOrArrayId) VarPart
+ 		
+ 		
+;
+VarListGlobal ::= (VarIdListGlobal) VarListGlobal COMMA VarPartGlobal
+		 | 
+ 		(VarOrArrayIdGlobal) VarPartGlobal
+ 		
+ 		
+;
+VarListMethod ::= (VarIdListMethod) VarListMethod COMMA VarPartMethod 
+		 | 
+ 		(VarOrArrayIdMethod) VarPartMethod 
+ 		
+ 		
+;
+
+VarPart ::= (VarId) IDENT: id 
+		 |
+		(VarArrayId) IDENT: id L_SQUARE_BR R_SQUARE_BR
+		| 
+			(VarPartError) error:e 
+		{: parser.report_error("Izvrsen oporavak pri deklarisanju varijable do , u liniji "+eleft, null);  :}
+;
+
+VarPartGlobal ::= (VarIdGlobal) IDENT: id 
+		 |
+		(VarArrayIdGlobal) IDENT: id L_SQUARE_BR R_SQUARE_BR
+		| 
+			(VarPartErrorGlobal) error:e 
+		{: parser.report_error("Izvrsen oporavak pri deklarisanju varijable do , u liniji "+eleft, null);  :}
+;
+
+
+VarPartMethod ::= (VarIdMethod) IDENT: id 
+		 |
+		(VarArrayIdMethod) IDENT: id L_SQUARE_BR R_SQUARE_BR
+		| 
+			(VarPartErrorMethod) error:e 
+		{: parser.report_error("Izvrsen oporavak pri deklarisanju varijable do , u liniji "+eleft, null);  :}
+;
+
+ClassDecl ::= (ClassDecl1) CLASS IDENT ExtendsType  VarDeclList MethodDeclCurlyBr R_CURRLY_BR
+ 
+;
+
+VarDeclList ::= (WithVarList) VarDeclList VarDecl
+			| 
+			(NoVarDecl) /* epsilon */
+;
+VarDeclListMethod ::= (WithVarListMethod) VarDeclListMethod VarDeclMethod
+			| 
+			(NoVarDeclMethod) /* epsilon */
+;	 
+
+ExtendsType ::= (ExtType) EXTENDS Type  L_CURRLY_BR
+				|
+				(NoExtType)L_CURRLY_BR
+			|
+			(ClassDeclError)  error:e L_CURRLY_BR 
+			{: parser.report_error("Izvrsen oporavak pri extends do { u liniji  " +eleft, null);  :}
+
+;		
+	 
+MethodDeclCurlyBr ::= (MethodCurlyBracket) L_CURRLY_BR MethodDeclList R_CURRLY_BR
+					| 
+					(NoMethodCurlyBracket)/* epsilon */
+;
+	 
+Type ::= (Type) IDENT:typeName 
+;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+					|
+					(NoMethodDecl)/* epsilon */
+;
+
+MethodDecl ::= (MethodDeclaration) MethodTypeName
+			   L_ROUND_BR FormalParamList R_ROUND_BR VarDeclListMethod L_CURRLY_BR StatementList R_CURRLY_BR 
+;
+
+MethodTypeName ::= (MethodTypeN) Type:retType IDENT:methName
+				| 
+				(MethodVoidN) VOID:retType IDENT:methName
+;
+
+FormalParamList ::= (FormalParameters) FormPars | (NoFormParam) /* epsilon */ 
+;
+
+FormPars ::= (FormalParamDecls)  FormPars COMMA FormalParamDecl
+					|
+					(SingleFormalParamDecl) FormalParamDecl
+;
+					
+FormalParamDecl ::= (ScalarParameter) Type IDENT
+						|
+					(ArrayParameter) Type IDENT L_SQUARE_BR R_SQUARE_BR
+					|
+					(FormalParamError) error:e 
+		{: parser.report_error("Izvrsen oporavak kod formalnih parametara do u liniji  " +eleft, null);  :}
+					
+;
+
+StatementList ::= (Statements) StatementList Statement 
+					|
+				  (NoStmt) /* epsilon */
+;
+
+Statement ::= (FirstExp) DesignatorStatement SEMI
+			  |
+			  (IfExp) IF L_ROUND_BR ConditionEr R_ROUND_BR Statement ElseStatement
+			  |
+			   (DoExpr) DO Statement WHILE L_ROUND_BR Condition R_ROUND_BR SEMI
+			  |
+			   (SwitchExpr) SWITCH L_ROUND_BR Expr R_ROUND_BR L_CURRLY_BR CaseStatementList R_CURRLY_BR
+			  |
+			  (BreakExpr) BREAK SEMI
+			  |
+			  (ContinueExpr) CONTINUE SEMI
+			  |
+			  (PrintStmt1) PRINT L_ROUND_BR Expr R_ROUND_BR SEMI 
+			  |
+			  (PrintStmt2) PRINT L_ROUND_BR Expr COMMA NUMCONST:num R_ROUND_BR SEMI 
+			  |
+			  (ReturnExpr) RETURN Expr:t SEMI
+			  |
+			  (ReturnNoExpr) RETURN SEMI
+			  |
+			  (ReadExpr) READ  L_ROUND_BR Designator R_ROUND_BR SEMI
+			  |
+			  (LastStatement)  L_CURRLY_BR StatementList R_CURRLY_BR 
+			  | (AssignDesignError)  error:e SEMI 
+				{: parser.report_error("Izvrsen oporavak pri dodeli do ; u liniji  " +eleft, null);  :}
+;
+
+ConditionEr ::= (CondtitionOnly) Condition
+				|
+				(CondError) error:e 
+		{: parser.report_error("Izvrsen oporavak u slucaju if-a do ) u liniji  " +eleft, null);  :};
+	
+ElseStatement ::= (ElseSttmnt) ELSE Statement 
+				 | 
+		  		(NoElseSttmnt) /* epsilon */
+;
+CaseStatementList ::= (CaseList) CaseStatementList CaseStatement
+					|
+		  			(NoCaseList) /* epsilon */
+;
+CaseStatement ::= (CaseStatement) CASE NUMCONST COLON StatementList
+;
+DesignatorStatement ::= (AssignDes) Designator Assignop Expr
+					| 
+					(ActParamsDes)Designator L_ROUND_BR ActualParamList R_ROUND_BR
+					| 
+					(Increment)Designator INC 
+					|
+					(Decrement) Designator DEC
+					 
+;
+	 
+ActualParamList ::= (Actuals) ActPars 
+				| 
+			   (NoActuals) /* epsilon */ 
+;
+			   
+ActPars ::= (ActualParams) ActPars COMMA Expr
+					|
+					(ActualParam) Expr
+;
+ 
+Designator ::= (DesignatorIdent) IDENT:designatorName DesignatorList
+;
+
+DesignatorList ::= (DessignList) DesignatorList  DesignatorPart 
+				| 
+				(DesignatorEpsilon)  /* epsilon */ 
+
+;
+				
+DesignatorPart ::= (DesignatorDotIdent) DOT IDENT 
+				| 
+				(DesignatorExpr) L_SQUARE_BR Expr R_SQUARE_BR
+;		
+
+Assignop ::= (EqualOp) EQUAL
+			
+;
+Relop ::= (EqualsOp) EQUALS 
+	    | 
+	   (NoEqualsOp) NOT_EQUALS
+	   | 
+	   (GreaterOp) GREATER 
+	    | 
+	   (GreaterEqualsOperator) GREATER_EQUALS
+	   | 
+	   (LessOperator) LESS 
+	    | 
+	   (LessEqualsOperator) LESS_EQUALS
+;
+
+Addop ::= (PlusOp) PLUS 
+	    | 
+	   (MinusOp) MINUS
+;
+ 
+ 
+Mulop ::= (TimesOp) MUL 
+	    | 
+       (DivOp) DIV
+       | 
+       (ModOp) MOD
+;
+
+ 
+Condition ::= (ConditionList)Condition OR CondTerm
+			| 
+			(ConditionTermOne) CondTerm
+;
+CondTerm::= (ConditionTermList) CondTerm AND CondFact
+			| 
+			(ConditionFactOne) CondFact 
+;
+
+
+CondFact ::= (CondFactExpressionTerms)ExpressionTerms
+				| 
+				(CondFactExpressionTermsList)ExpressionTerms Relop ExpressionTerms1 
+; 
+				
+ExpressionTerms1::= (ExpressionTermsOne)ExpressionTerms
+;			
+
+Expr ::= (ExpressionTerm) ExpressionTerms
+			| (ExpressionConditions)ExpressionCondition
+;
+			
+ExpressionTerms::=(MinusTerms)MINUS Terms
+		 	| (JustTerms) Terms
+;
+			
+ExpressionCondition ::= (WholeCondition) Condition QUESTION_MARK Expr SemiColonCond Expr1
+;
+SemiColonCond ::= (SemiColonCondition) COLON
+;
+
+Expr1::= (ExprOne) Expr
+;
+
+Terms ::= (TermsList) Terms Addop Term
+			| 
+			(TermsExpressionTerm) Term
+;		
+
+Term ::= (TermMullFactor) Term Mulop Factor
+			|
+			(TermFactor) Factor
+;
+
+Factor ::=	(FuncCall) Designator:o L_ROUND_BR ActualParamList R_ROUND_BR
+			|
+			(VarRef) Designator:d
+		    | 
+		    (IntRef)NUMCONST:numConst
+			| 
+			(CharRef)CHARCONST:charConst
+			| 
+			(BoolRef)BOOLCONST:boolConst
+			| 
+			(OperatorNewArray) NEW Type:t L_SQUARE_BR Expr:expr R_SQUARE_BR 
+			|
+			 (OperatorNew) NEW Type:t
+			| 
+			(ParenthesisExpr)L_ROUND_BR Expr:expr R_ROUND_BR
+;
+							
+							
+	 

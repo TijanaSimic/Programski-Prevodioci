@@ -1,0 +1,18 @@
+ program test
+  //oporavak od greske u slucaju definisanja formalnih parametara fje - nivo B
+ 
+ 
+ {
+ 	int sum(int a+,int b) 
+ 	{
+ 	return a+b;
+ 	}
+ 
+ 	void main()	
+		   {	
+		 
+	 	
+	 }
+}
+
+

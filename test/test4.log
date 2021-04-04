@@ -1,0 +1,125 @@
+INFO  01:09:57,920 - Compiling source file: C:\Users\Tijana\Desktop\posl\workspace\MJCompiler\test\test301.mj
+INFO  01:09:57,986 - #2 program
+INFO  01:09:57,987 - #47 test
+INFO  01:09:57,987 - #38 {
+INFO  01:09:57,988 - #47 int
+INFO  01:09:57,989 - #47 sum
+INFO  01:09:57,990 - #44 (
+INFO  01:09:57,990 - #47 int
+INFO  01:09:57,990 - #47 a
+INFO  01:09:57,991 - #26 +
+ERROR 01:09:57,991 - 
+Sintaksna greska na liniji 6
+INFO  01:09:57,991 - #41 ,
+INFO  01:09:57,991 - #47 int
+INFO  01:09:57,992 - #47 b
+INFO  01:09:57,993 - #45 )
+ERROR 01:09:57,993 - Izvrsen oporavak kod formalnih parametara u liniji  6
+INFO  01:09:57,994 - #38 {
+INFO  01:09:57,996 - #14 return
+INFO  01:09:57,996 - #47 a
+INFO  01:09:57,996 - #26 +
+INFO  01:09:57,998 - #47 b
+INFO  01:09:57,999 - #40 ;
+INFO  01:09:58,000 - #39 }
+INFO  01:09:58,000 - #16 void
+INFO  01:09:58,000 - #47 main
+INFO  01:09:58,000 - #44 (
+INFO  01:09:58,000 - #45 )
+INFO  01:09:58,001 - #38 {
+INFO  01:09:58,001 - #39 }
+INFO  01:09:58,001 - #39 }
+INFO  01:09:58,002 - ProgramFile(
+  ProgramName(
+   test
+  ) [ProgramName]
+  NoDecl(
+  ) [NoDecl]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeN(
+          Type(
+           int
+          ) [Type]
+         sum
+        ) [MethodTypeN]
+        FormalParameters(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              FormalParamError(
+              ) [FormalParamError]
+            ) [SingleFormalParamDecl]
+            ScalarParameter(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [ScalarParameter]
+          ) [FormalParamDecls]
+        ) [FormalParameters]
+        NoVarDeclMethod(
+        ) [NoVarDeclMethod]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          ReturnExpr(
+            ExpressionTerm(
+              JustTerms(
+                TermsList(
+                  TermsExpressionTerm(
+                    TermFactor(
+                      VarRef(
+                        DesignatorIdent(
+                         a
+                          DesignatorEpsilon(
+                          ) [DesignatorEpsilon]
+                        ) [DesignatorIdent]
+                      ) [VarRef]
+                    ) [TermFactor]
+                  ) [TermsExpressionTerm]
+                  PlusOp(
+                  ) [PlusOp]
+                  TermFactor(
+                    VarRef(
+                      DesignatorIdent(
+                       b
+                        DesignatorEpsilon(
+                        ) [DesignatorEpsilon]
+                      ) [DesignatorIdent]
+                    ) [VarRef]
+                  ) [TermFactor]
+                ) [TermsList]
+              ) [JustTerms]
+            ) [ExpressionTerm]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodVoidN(
+       main
+      ) [MethodVoidN]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclMethod(
+      ) [NoVarDeclMethod]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramFile]
+INFO  01:09:58,009 - ================SINTAKSNA ANALIZA===================
+INFO  01:09:58,010 - 
+0    classes
+2    methods in the program
+0    global variables
+0    global constants
+0    global arrays
+0    local variables in main
+0    statements in main
+0    function calls in main
+
+ERROR 01:09:58,010 - Parsiranje NIJE uspesno zavrseno!

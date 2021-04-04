@@ -1,0 +1,21 @@
+//semanticke greske
+
+program test
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+ 
+	
+{
+	int main()	
+		 int niz[];
+		int i,j;
+		 
+	{
+	 return 2;
+	}
+}
+
+

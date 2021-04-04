@@ -1,0 +1,23 @@
+//semanticke greske
+
+program test
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+ 
+	
+{
+	void main()	
+		 int niz[];
+		int i,j;
+		 
+	{
+		niz=new char[3];
+		niz[0]=true;;
+		read(i[4]);
+	}
+}
+
+

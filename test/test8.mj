@@ -1,0 +1,27 @@
+//semanticke greske
+
+program test
+
+	const int nula = 0;
+	const int jedan = 1;
+	const int pet = 5;
+
+ 
+	
+{
+	void main()	
+		int bodovi; 
+		char s; bool m;
+		int i,j;
+		int bt;
+	{
+		bodovi = 0;
+		s++;
+		j=jedan+pet%3;
+		bt = (j ? j : i);
+		print(bt);
+		m = (bt ? true : 's');
+	}
+}
+
+

@@ -1,0 +1,74 @@
+INFO  01:12:43,893 - Compiling source file: C:\Users\Tijana\Desktop\posl\workspace\MJCompiler\test\test301.mj
+INFO  01:12:43,956 - #2 program
+INFO  01:12:43,956 - #47 test
+INFO  01:12:43,956 - #47 int
+INFO  01:12:43,957 - #47 s
+INFO  01:12:43,957 - #25 =
+ERROR 01:12:43,957 - 
+Sintaksna greska na liniji 4
+INFO  01:12:43,957 - #26 +
+INFO  01:12:43,958 - #46 5
+INFO  01:12:43,958 - #41 ,
+INFO  01:12:43,958 - #47 r
+INFO  01:12:43,959 - #40 ;
+INFO  01:12:43,959 - #38 {
+ERROR 01:12:43,959 - Izvrsen oporavak pri deklarisanju varijable do , u liniji 4
+INFO  01:12:43,960 - #16 void
+INFO  01:12:43,960 - #47 main
+INFO  01:12:43,960 - #44 (
+INFO  01:12:43,961 - #45 )
+INFO  01:12:43,961 - #38 {
+INFO  01:12:43,962 - #39 }
+INFO  01:12:43,966 - #39 }
+INFO  01:12:43,967 - ProgramFile(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    NoDecl(
+    ) [NoDecl]
+    VarDeclaration(
+      VarClassGlobal(
+        Type(
+         int
+        ) [Type]
+        VarIdListGlobal(
+          VarOrArrayIdGlobal(
+            VarPartErrorGlobal(
+            ) [VarPartErrorGlobal]
+          ) [VarOrArrayIdGlobal]
+          VarIdGlobal(
+           r
+          ) [VarIdGlobal]
+        ) [VarIdListGlobal]
+      ) [VarClassGlobal]
+    ) [VarDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodVoidN(
+       main
+      ) [MethodVoidN]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclMethod(
+      ) [NoVarDeclMethod]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramFile]
+INFO  01:12:43,973 - ================SINTAKSNA ANALIZA===================
+INFO  01:12:43,973 - 
+0    classes
+1    methods in the program
+1    global variables
+0    global constants
+0    global arrays
+0    local variables in main
+0    statements in main
+0    function calls in main
+
+ERROR 01:12:43,973 - Parsiranje NIJE uspesno zavrseno!

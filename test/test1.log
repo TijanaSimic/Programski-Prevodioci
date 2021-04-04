@@ -1,0 +1,60 @@
+INFO  01:03:35,212 - Compiling source file: C:\Users\Tijana\Desktop\posl\workspace\MJCompiler\test\test301.mj
+INFO  01:03:35,288 - #2 program
+INFO  01:03:35,288 - #47 test
+INFO  01:03:35,288 - #6 const
+INFO  01:03:35,289 - #47 int
+INFO  01:03:35,289 - #25 =
+ERROR 01:03:35,289 - 
+Sintaksna greska na liniji 4
+INFO  01:03:35,289 - #46 4
+INFO  01:03:35,289 - #40 ;
+INFO  01:03:35,290 - #38 {
+INFO  01:03:35,290 - #16 void
+INFO  01:03:35,290 - #47 main
+ERROR 01:03:35,290 - Izvrsen oporavak pri deklarisanju konstante do ; u liniji  4
+INFO  01:03:35,292 - #44 (
+INFO  01:03:35,292 - #45 )
+INFO  01:03:35,293 - #38 {
+INFO  01:03:35,293 - #39 }
+INFO  01:03:35,294 - #39 }
+INFO  01:03:35,295 - ProgramFile(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    NoDecl(
+    ) [NoDecl]
+    ConstDeclaration(
+      ConstError(
+      ) [ConstError]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodVoidN(
+       main
+      ) [MethodVoidN]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclMethod(
+      ) [NoVarDeclMethod]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramFile]
+INFO  01:03:35,305 - ================SINTAKSNA ANALIZA===================
+INFO  01:03:35,305 - 
+0    classes
+1    methods in the program
+0    global variables
+1    global constants
+0    global arrays
+0    local variables in main
+0    statements in main
+0    function calls in main
+
+INFO  01:03:35,306 - Obradjuje se funkcija Meth main: none, 0, 0 na liniji 7
+ERROR 01:03:35,307 - Parsiranje NIJE uspesno zavrseno!

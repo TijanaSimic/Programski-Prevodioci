@@ -1,0 +1,10 @@
+ program test
+ { //oporavak od greske u slucaju dodele vrednosti
+ 	void main()	
+		   {	
+			  d=2+4****;
+	 	
+	 }
+}
+
+

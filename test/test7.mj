@@ -1,0 +1,35 @@
+//Oporavak od greske u slucaju prosirenja natklase i u slucaju 
+//deklarisanja promenljivih unutar klase - nivo C
+
+program test
+
+const int cinilac = 4, delilac = 3;
+
+class Predmet
+{
+	 int tezina;
+	 char vrsta;
+
+	{
+		 void postaviTezinu(int tezina) {this.tezina = tezina;}  
+		 
+	}
+}
+
+class Sfera extendssssss Predmet
+{
+	 int r++,s,a;
+	{
+		 void postaviTezinu(int tezina) {this.tezina = tezina; vrsta = 's';}
+		 
+	}
+}
+ 
+{
+
+	 
+	void main()  
+	{	
+		 
+	}
+}

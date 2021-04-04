@@ -1,0 +1,182 @@
+INFO  00:38:32,772 - Compiling source file: C:\Users\Tijana\Desktop\posl\workspace\MJCompiler\test\test301.mj
+INFO  00:38:32,838 - #2 program
+INFO  00:38:32,838 - #47 test
+INFO  00:38:32,838 - #6 const
+INFO  00:38:32,839 - #47 int
+INFO  00:38:32,839 - #47 nula
+INFO  00:38:32,840 - #25 =
+INFO  00:38:32,840 - #46 0
+INFO  00:38:32,840 - #40 ;
+INFO  00:38:32,840 - #6 const
+INFO  00:38:32,841 - #47 int
+INFO  00:38:32,841 - #47 jedan
+INFO  00:38:32,841 - #25 =
+INFO  00:38:32,841 - #46 1
+INFO  00:38:32,841 - #40 ;
+INFO  00:38:32,841 - #6 const
+INFO  00:38:32,841 - #47 int
+INFO  00:38:32,842 - #47 pet
+INFO  00:38:32,842 - #25 =
+INFO  00:38:32,842 - #46 5
+INFO  00:38:32,842 - #40 ;
+INFO  00:38:32,842 - #38 {
+INFO  00:38:32,867 - #47 int
+INFO  00:38:32,867 - #47 main
+INFO  00:38:32,868 - #44 (
+INFO  00:38:32,868 - #45 )
+INFO  00:38:32,868 - #47 int
+INFO  00:38:32,869 - #47 niz
+INFO  00:38:32,869 - #42 [
+INFO  00:38:32,869 - #43 ]
+INFO  00:38:32,870 - #40 ;
+INFO  00:38:32,870 - #47 int
+INFO  00:38:32,870 - #47 i
+INFO  00:38:32,870 - #41 ,
+INFO  00:38:32,870 - #47 j
+INFO  00:38:32,871 - #40 ;
+INFO  00:38:32,871 - #38 {
+INFO  00:38:32,871 - #14 return
+INFO  00:38:32,872 - #46 2
+INFO  00:38:32,872 - #40 ;
+INFO  00:38:32,873 - #39 }
+INFO  00:38:32,873 - #39 }
+INFO  00:38:32,875 - ProgramFile(
+  ProgramName(
+   test
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      Declarations(
+        NoDecl(
+        ) [NoDecl]
+        ConstDeclaration(
+          ConstDecl1(
+            Type(
+             int
+            ) [Type]
+            ConstListJustPart(
+              ConstantListIdentEqual(
+               nula
+                NumConstantList(
+                 0
+                ) [NumConstantList]
+              ) [ConstantListIdentEqual]
+            ) [ConstListJustPart]
+          ) [ConstDecl1]
+        ) [ConstDeclaration]
+      ) [Declarations]
+      ConstDeclaration(
+        ConstDecl1(
+          Type(
+           int
+          ) [Type]
+          ConstListJustPart(
+            ConstantListIdentEqual(
+             jedan
+              NumConstantList(
+               1
+              ) [NumConstantList]
+            ) [ConstantListIdentEqual]
+          ) [ConstListJustPart]
+        ) [ConstDecl1]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    ConstDeclaration(
+      ConstDecl1(
+        Type(
+         int
+        ) [Type]
+        ConstListJustPart(
+          ConstantListIdentEqual(
+           pet
+            NumConstantList(
+             5
+            ) [NumConstantList]
+          ) [ConstantListIdentEqual]
+        ) [ConstListJustPart]
+      ) [ConstDecl1]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeN(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MethodTypeN]
+      NoFormParam(
+      ) [NoFormParam]
+      WithVarListMethod(
+        WithVarListMethod(
+          NoVarDeclMethod(
+          ) [NoVarDeclMethod]
+          VarMethod(
+            Type(
+             int
+            ) [Type]
+            VarOrArrayIdMethod(
+              VarArrayIdMethod(
+               niz
+              ) [VarArrayIdMethod]
+            ) [VarOrArrayIdMethod]
+          ) [VarMethod]
+        ) [WithVarListMethod]
+        VarMethod(
+          Type(
+           int
+          ) [Type]
+          VarIdListMethod(
+            VarOrArrayIdMethod(
+              VarIdMethod(
+               i
+              ) [VarIdMethod]
+            ) [VarOrArrayIdMethod]
+            VarIdMethod(
+             j
+            ) [VarIdMethod]
+          ) [VarIdListMethod]
+        ) [VarMethod]
+      ) [WithVarListMethod]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ReturnExpr(
+          ExpressionTerm(
+            JustTerms(
+              TermsExpressionTerm(
+                TermFactor(
+                  IntRef(
+                   2
+                  ) [IntRef]
+                ) [TermFactor]
+              ) [TermsExpressionTerm]
+            ) [JustTerms]
+          ) [ExpressionTerm]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [ProgramFile]
+INFO  00:38:32,885 - ================SINTAKSNA ANALIZA===================
+INFO  00:38:32,885 - 
+0    classes
+1    methods in the program
+0    global variables
+3    global constants
+0    global arrays
+3    local variables in main
+1    statements in main
+0    function calls in main
+
+INFO  00:38:32,888 - Deklarisana je konstanta Con nula: int, 0, 0 na liniji 5
+INFO  00:38:32,888 - Deklarisana je konstanta Con jedan: int, 1, 0 na liniji 6
+INFO  00:38:32,888 - Deklarisana je konstanta Con pet: int, 5, 0 na liniji 7
+ERROR 00:38:32,888 - Greska: postoji metoda sa imenom main ali nije deklarisana kao void metoda  na liniji 12
+INFO  00:38:32,888 - Deklarisana je promenljiva Var niz: Array of int, 0, 1 na liniji 13
+INFO  00:38:32,889 - Deklarisana je promenljiva Var i: int, 1, 1 na liniji 14
+INFO  00:38:32,889 - Deklarisana je promenljiva Var j: int, 2, 1 na liniji 14
+ERROR 00:38:32,889 - Greska: Funkcija main ne moze imati povratnu vrednost posto moze biti samo void 
+ERROR 00:38:32,889 - Semanticka greska!
